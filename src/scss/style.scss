@@ -1,0 +1,55 @@
+@import 'base/*.scss';
+@import 'global/*.scss';
+@import '**/_*.scss';
+@import '../components/**/*.scss';
+@import 'variables/*.scss';
+
+
+.header {
+    &__inner {
+        @include DemiC;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 72px;
+    }
+    &__nav {
+        display: flex;
+        a {
+            padding-left: 24px;
+            
+            font-size: 18px;
+            line-height: 21px;
+            color: #FFFFFF;
+        }
+    }
+    &__language {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 21px;
+        a {
+            color: #253048;
+        }
+        .en {
+            color: #fff;
+            padding-left: 8px;
+        }
+    }
+    &__social {
+       padding-right: 10px;
+        svg {
+            margin-left: 20px;
+        }
+    }
+    &__btn {
+        @include blue-gradient;
+        font-size: 20px;
+        line-height: 23px;
+        padding: 13px 25px; 
+        text-align:center; 
+        text-transform: uppercase;
+        border: 2px solid transparent;
+        border-image: linear-gradient(95.72deg, #1083F8 0%, #23AEFE 116.17%);
+        border-image-slice: 1;
+    }
+}
