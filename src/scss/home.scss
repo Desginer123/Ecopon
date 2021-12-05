@@ -1,0 +1,56 @@
+.home {
+    padding-bottom: 174px;
+}
+.home__inner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.main__box {
+    font-family: 'FuturaBookC';
+    font-weight: 400;
+    max-width: 704px;
+    color: #949494;
+    padding-top: 171px;
+    &-text {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    &-items{
+        padding-bottom: 32px;
+    }
+    &-item {
+        font-size: 24px;
+        line-height: 27px;
+        padding-top: 32px;
+        position: relative;
+        padding-left: 45px;
+        &::before {
+            content: "";
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            left: 0;
+            background-image: url(../img/subtract.png);
+            background-repeat: no-repeat;
+            
+        }
+    }
+    &-round {
+        font-family: 'FuturaDemiC';
+        font-weight: 600;
+        color: #fff;
+    }
+    &-buy {
+        padding-top: 33px;
+        display: flex;
+        align-items: center;
+    }
+    .google-play {
+        margin: 5px 16px 0 48px;
+    }
+    .appstore {
+        padding-top: 5px;
+    }
+}

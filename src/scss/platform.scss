@@ -1,0 +1,57 @@
+.platform {
+    position: relative;
+    padding-bottom: 194px;
+}
+.platform__title {
+    
+    padding-bottom: 194px;
+}
+.platform__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -15px;
+}
+.platform__box-ellipce {
+    position: absolute;
+    top: 1.6rem;
+    left: 12.1rem;
+}
+.platform__box-ellipce-blur {
+    position: absolute;
+    right: 0;
+}
+.ellipce-orange {
+    position: absolute;
+    left: 0;
+    top: -25rem;
+}
+.platform__box {
+    max-width: 459px;
+    height: 624px;
+    background: #14213F;
+    border-radius: 30px;
+    position: relative;
+    .platform__image {
+        position: absolute;
+        top: -7rem;
+        left: 7rem;
+    }
+    .platform__image-box {
+        top: -6rem;
+    }
+    &-container {
+        padding: 0 50px;
+    }
+    &-title {
+        font-family: 'FuturaDemiC';
+        margin: 0 auto;
+        padding-top: 150px;
+        padding-bottom: 24px;
+        font-size: 32px;
+        line-height: 37px;
+        color: #FFFFFF;
+    }
+    &-text {
+        color: #949494;
+    }
+}

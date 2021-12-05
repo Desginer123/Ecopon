@@ -51,8 +51,11 @@ body {
 }
 
 body {
-	font-size: 1rem;
+	font-family: 'FuturaBookC';
+	font-weight: 400;
 	background-color: rgba(2, 12, 34, 1);
+	color: #fff;
+	font-size: 24px;
 }
 
 .container{
@@ -83,10 +86,36 @@ li {
 
 .title {
 	font-family: FuturaDemiC;
-	font-style: 600;
 	font-weight: 600;
 	font-size: 72px;
 	line-height: 90%;
 	text-align: center;
 	color: #FFFFFF;
+}
+
+.text {
+	font-family: 'FuturaBookC';
+	font-size: 24px;
+	line-height: 27px;
+}
+
+.box-title {
+	font-family: 'FuturaDemiC';
+	font-weight: 600;
+	font-size: 72px;
+	line-height: 80px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	padding-bottom: 24px;
+}
+
+.btn {
+	background: linear-gradient(90.11deg, #086FF5 -39.64%, #24B1FE 104.35%);
+	font-size: 24px;
+	line-height: 28px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	padding: 25px 79px;
+	border-radius: 8px;
+	box-shadow: 4px 4px 20px rgba(30, 164, 252, 0.25);
 }
