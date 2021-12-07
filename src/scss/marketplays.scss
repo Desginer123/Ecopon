@@ -16,7 +16,10 @@
 
 .marketplays__info {
     padding-top: 90px;
-    max-width: 410px;
+    max-width: 520px;
+    &-text {
+        max-width: 365px;
+    }
 }
     .marketplays__info-title {
         font-family: 'FuturaDemiC';
