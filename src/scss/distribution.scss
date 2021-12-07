@@ -1,0 +1,120 @@
+.distribution {
+    padding-bottom: 181px;
+    &__inner {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 125vh;
+        
+    }
+    &__title {
+        padding-top: 86px;
+    }
+    &__wrapper {
+        padding-top: 82px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+
+.token__circle {
+    position: relative;
+   
+}
+
+.token__title {
+    display: inline-block;
+    font-family: FuturaDemiC;
+    font-size: 48px;
+    line-height: 90%;
+    background: #141D31;
+    border-radius: 50%;
+    text-align: center;
+    padding: 186px 65px;
+}
+
+.token__circle-lines {
+    position: absolute;
+    left: -3.2rem;
+    top: -3.2rem;
+}
+
+
+.token__statistics {
+    width: 704px;
+    max-height: 643px;
+    background-color: #0f182d;
+    display: grid;
+    padding: 59px 0 59px 76px ;
+    grid-template-columns: 2fr 2fr;
+    border-radius: 30px;
+    
+    &-item {
+        display: flex;
+        padding-bottom: 24px;
+   
+    }
+    &-color {
+        width: 15px;
+        height: 86px;
+        background: #196495;
+        margin-right: 32px;
+    }
+}
+
+
+.token__statistics-info {
+    &__title {
+        font-family: FuturaDemiC;
+        line-height: 28px;
+        color: #949494;
+        padding-top: 3px;
+        margin-bottom: 8px;
+    }
+    &__percent {
+        font-family: Futura;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 43px;
+    }
+}
+
+
+.color--2 {
+    background: #848B28;
+}
+
+
+.color--3 {
+    background: #198B82;
+}
+
+.color--4 {
+    background: #524224;
+}
+
+.color--5 {
+    background: #193695;
+}
+
+.color--6 {
+    background: #861E28;
+}
+
+.color--7 {
+    background: #198B54;
+}
+
+.color--8 {
+    background: #241A6F;
+}
+
+.color--9 {
+    background: #561E95;
+}
+
+.color--10 {
+    background: #191C84;
+}

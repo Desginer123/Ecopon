@@ -1,0 +1,115 @@
+.map {
+    padding-bottom: 110px;
+    &__inner {
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        max-width: 1931px;
+        min-height: 788px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    a {
+        font-size: 20px;
+    }
+
+    .btn-map {
+        padding: 26px 61px;
+    }
+
+    .btn-paper {
+        padding: 25px 91px;
+    }
+   
+    &__items {
+        padding-top: 72px;
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    &__item {
+        &-title {
+            font-family: FuturaDemiC;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 90%;
+            padding-bottom: 16px;
+            display: inline-block;
+        }
+        &-social {
+            display: inline-block;
+        }
+    }
+}
+
+
+.point-map, .map__people {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.point {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    background-color: rgba(8, 111, 245, 1);
+    border-radius: 50%;
+}
+
+
+.point--1 {
+    top: 22rem;
+    left: 5rem;
+}
+.point--2 {
+    right: 7rem;
+    top: 8rem;
+}
+
+.point--3 {
+    top: 32rem;
+    right: 9rem;
+}
+.point--4 {
+    top: 34rem;
+}
+.point--5 {
+    top: 32rem;
+    left: 13rem;
+}
+.point--6 {
+    top: 13rem;
+    left: 2rem;
+}
+
+
+.person {
+    position: relative;
+}
+
+
+.person-1 {
+    top: 14rem;
+}
+
+.person-2 {
+    top: 2rem;
+    right: 18rem;
+}
+
+.person-3 {
+    top: 33rem;
+    right: 20rem;
+}
+
+.person-4 {
+    top: 11rem;
+    left: 16rem;
+}
+
+.person-5 {
+    top: 23rem;
+    left: 1rem;
+}

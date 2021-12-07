@@ -1,0 +1,47 @@
+.metrics {
+    padding-bottom: 153px;
+    position: relative;
+}
+
+.metrics-blur {
+    position: absolute;
+    top: -10rem;
+    z-index: -1;
+}
+
+.metrics-light {
+    position: absolute;
+    right: 0;
+    top: 29rem;
+    z-index: -1;
+}
+
+.metrics__wrapper {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 35px;
+    padding-top: 90px;
+}
+
+.metrics__item {
+    max-width: 704px;
+    background: #0F182D;
+    border-radius: 30px;
+    text-align: center;
+    &-title{
+        padding-top: 61px;
+        padding-bottom: 25px;
+        margin-bottom: 8px;
+        font-family: FuturaDemiC;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 72px;
+        background: linear-gradient(90.35deg, #086FF5 -26.99%, #24B1FE 52.73%);
+	    background-clip: text;
+	    -webkit-text-fill-color: transparent;
+	    color: transparent;
+    }
+    &-text {
+        padding-bottom: 41px;
+    }
+}

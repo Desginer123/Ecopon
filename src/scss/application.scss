@@ -1,0 +1,68 @@
+.application {
+    padding-top: 240px;
+    padding-bottom: 240px;
+    position: relative;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr;
+        grid-column-gap: 31px;
+    }
+    &__wrap {
+        padding-top: 92px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 32px;
+    }
+    .application-vector {
+        position: absolute;
+    top: 0;
+    right: 0;
+    }
+    .aplication-ellips {
+        position: absolute;
+        top: 28rem;
+    }
+}
+
+
+.application__box {
+    max-height: 536px;
+    .application__box-title {
+        padding-top: 96px;
+    }
+    &-text {
+        p {
+            padding-bottom: 24px;
+        }
+    }
+    .application__image {
+    position: absolute;
+    top: -3rem;
+    left: 11rem;
+    }
+   
+}
+
+
+.application__box-down {
+    max-width: 704px;
+    height: 424px;
+    background: #14213F;
+    border-radius: 30px;
+    position: relative;
+}
+.application__image-down {
+    position: absolute;
+    top: -4rem;
+    left: 18rem;
+}
+
+.application__title-down {
+    font-family: 'FuturaDemiC';
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 24px;
+    font-size: 32px;
+    line-height: 37px;
+    color: #FFFFFF;
+}

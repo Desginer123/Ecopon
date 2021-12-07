@@ -56,6 +56,8 @@ body {
 	background-color: rgba(2, 12, 34, 1);
 	color: #fff;
 	font-size: 24px;
+	line-height: 27px;
+	overflow-x:hidden;
 }
 
 .container{
@@ -98,6 +100,15 @@ li {
 	font-size: 24px;
 	line-height: 27px;
 }
+.box-text {
+	font-family: FuturaBookC;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 36px;
+	text-align: center;
+	color: #949494;
+}
 
 .box-title {
 	font-family: 'FuturaDemiC';
@@ -109,13 +120,32 @@ li {
 	padding-bottom: 24px;
 }
 
+.button {
+	padding: 25px 0;
+	z-index: 50;
+	
+}
 .btn {
 	background: linear-gradient(90.11deg, #086FF5 -39.64%, #24B1FE 104.35%);
 	font-size: 24px;
-	line-height: 28px;
+	
 	text-transform: uppercase;
 	color: #FFFFFF;
 	padding: 25px 79px;
 	border-radius: 8px;
 	box-shadow: 4px 4px 20px rgba(30, 164, 252, 0.25);
+}
+
+.card-title {
+	font-family: FuturaDemiC;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	padding-top: 10px;
+	line-height: 37px;
+	background: linear-gradient(90.35deg, #086FF5 -26.99%, #24B1FE 52.73%);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: transparent;
+	padding-bottom: 24px;
 }

@@ -1,0 +1,91 @@
+.ecosystem {
+    position: relative;
+    padding-bottom: 190px;
+    margin-top: 328px;
+    &__inner {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+}
+
+.system__title {
+   position: relative;
+   padding-top: 134px;
+}
+
+
+
+.ecosystem__wrapper {
+    padding-top: 114px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 32px;
+    position: relative;
+    z-index: 50; 
+}
+
+.fitness-man {
+    position: absolute;
+   
+    top: 5rem;
+}
+
+.ecosystem-vector {
+    position: absolute;
+    top: 25rem;
+    left: 17rem;
+    z-index: -1;
+}
+
+
+.ecosystem__card--1 {
+    border: 2px solid #24B1FE;
+}
+.ecosystem__card {
+    width: 464px;
+    background: #0F182D;
+
+box-sizing: border-box;
+box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.5);
+border-radius: 30px;
+padding: 64px 39px;
+text-align: right;
+max-height: 308px;
+z-index: 50;
+}
+.ecosystem__card-left {
+    text-align: left;
+}
+.ecosystem__logo {
+
+    img {
+        padding: 0 96px; 
+    }
+}
+.ecosystem__link {
+   
+    a {
+        color: #FFFFFF;
+         text-decoration-line: underline;
+    }
+}
+.ecosystem__wrap {
+    display: flex;
+    justify-content: center;
+    z-index: 50;
+}
+
+.card-right {
+    margin-right: 30px;
+}
+
+
+.blur {
+    position: absolute;
+    right: 0;
+    top: 8rem;
+    z-index: -1;
+}

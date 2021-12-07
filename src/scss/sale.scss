@@ -1,0 +1,215 @@
+.sale {
+    position: relative;
+    padding-bottom: 190px;
+}
+
+.sale__inner {
+    position: relative;
+}
+
+.sale-ellipse {
+    position: absolute;
+    top: 10rem;
+    left: -8rem;
+}
+
+.sale-ellipse--2 {
+    position: absolute;
+    top: 15rem;
+    left: 8rem;
+}
+
+.sale-blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sale-blur--2 {
+    position: absolute;
+    right: 0;
+    top: 50rem;
+}
+
+.sale-blur--3 {
+    position: absolute;
+    left: 0;
+    bottom: 1rem;
+}
+
+.sale__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.sale-title {
+    top: 4rem;
+    position: absolute;
+    font-family: FuturaDemiC;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 80px;
+    color: #fff;
+    padding-bottom: 24px;
+}
+
+.sale__box {
+    position: relative;
+    background: #020C22;
+    border: 1px solid #949494;
+    box-sizing: border-box;
+    border-radius: 15px;
+    max-width: 633px;
+    min-height: 667px;
+    padding: 68px 74px;
+    font-family: FuturaDemiC;
+    font-weight: 600;
+    margin-bottom: 72px;
+    &-number {
+        font-size: 72px;
+        color: rgba(8, 111, 245, 1);
+        padding-top: 16px;
+        padding-bottom: 36px;
+
+    }
+    &-title {
+        color: rgba(8, 111, 245, 1);
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 37px;
+        margin-bottom: 8px;
+    }
+    &-text {
+        margin-bottom: 24px;
+    }
+
+    
+    &-date {
+        font-size: 32px;
+        line-height: 37px;
+        border-bottom: 1px solid #949494;
+        padding-bottom: 24px;
+    }
+    &-price {
+        align-items: center;
+        display: flex;
+        padding-top: 24px;
+        border-bottom: 1px solid #949494;
+        padding-bottom: 24px;
+        &__cost {
+            font-size: 32px;
+            line-height: 37px;
+            padding-left: 44px;
+        }
+    }
+    &-info {
+        font-family: FuturaBookC;
+        display: flex;
+       padding: 24px 0;
+       border-bottom: 1px solid #949494;
+       .sale__box-info__percent-2{
+           padding-left: 63px;
+       }
+    }
+    .sale__box-condition {
+        font-family: FuturaBookC;
+        padding-top: 24px;
+        font-size: 24px;
+        line-height: 27px;
+        color: #949494;
+    }
+}
+
+.sale__box-list {
+    font-family: FuturaBookC;
+        padding-top: 24px;
+        font-size: 24px;
+        line-height: 27px;
+        color: #949494;
+        p {
+            padding-top: 20px;
+        }
+}
+
+
+.point-1 {
+    position: absolute;
+    top: 9rem;
+    right: -2.78rem;
+    &::before {
+        content: "";
+        position: absolute;
+        display: block;
+        border: 1px solid #949494;
+        top: 40%;
+        left: -33px;
+        width: 34px;
+        z-index: -1;
+    }
+}
+
+.point-2 {
+    position: absolute;
+    top: 12rem;
+    right: -2.78rem;
+    &::before {
+        content: "";
+        position: absolute;
+        display: block;
+        border: 1px solid #949494;
+        top: 40%;
+        left: -33px;
+        width: 34px;
+        z-index: -1;
+    }
+}
+
+
+.point-3 {
+    position: absolute;
+    top: 8rem;
+    left: -2.8rem;
+    &::before {
+        content: "";
+        position: absolute;
+        display: block;
+        border: 1px solid #949494;
+        top: 40%;
+        right: -33px;
+        width: 34px;
+        z-index: -1;
+    }
+}
+
+.point-4 {
+    position: absolute;
+    top: 12rem;
+    left: -2.8rem;
+    &::before {
+        content: "";
+        position: absolute;
+        display: block;
+        border: 1px solid #949494;
+        top: 40%;
+        right: -33px;
+        width: 34px;
+        z-index: -1;
+    }
+}
+
+.sale__wrapper-box--second {
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        border-right: 1px solid #949494;
+        width: 200px;
+        top: 9rem;
+        left: -236px;
+        height: 117rem;
+        z-index: -1;
+        
+    }
+}

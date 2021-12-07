@@ -1,0 +1,106 @@
+.road {
+ 
+}
+
+.road__inner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 180vh;
+    position: relative;
+}
+
+.road-line {
+    position: absolute;
+    top: 29rem;
+    left: 0;
+}
+
+.road__wrapper {
+    display: grid;
+    grid-template-columns: repeat(4,4fr);
+    grid-gap: 74px 18px;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.title__road {
+    padding-top: 115px;
+    padding-bottom: 72px;
+}
+
+.road__item {
+    font-family: FuturaDemiC;
+    max-width: 389px;
+    position: relative;
+    &::after {
+        content: "";
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        background: linear-gradient(90.11deg, #086FF5 -39.64%, #24B1FE 104.35%);
+        
+    }
+    &-title {
+        color: rgba(8, 111, 245, 1);
+        font-size: 32px;
+        line-height: 37px;
+    }
+    &-text {
+        font-family: FuturaBookC;
+        font-weight: 400;
+        line-height: 27px;
+        color: #949494;
+        border-left: 1px solid #1691FA;
+        font-size: 24px;
+        min-height: 173px;
+        padding-left: 14px;
+        
+       
+    }
+}
+
+.border-text {
+    font-family: FuturaBookC;
+        font-weight: 400;
+        line-height: 27px;
+        color: #949494;
+        border-left: 1px solid #1691FA;
+        font-size: 24px;
+        min-height: 198px;
+        padding-left: 14px;
+}
+
+.road__item-title--2 {
+    color: #FDFDFD;
+}
+
+.road__item-title--3 {
+    font-family: FuturaDemiC;
+    font-size: 32px;
+    line-height: 37px;
+    position: absolute;
+    bottom: 0rem;
+    right: 29rem;
+    background: linear-gradient(88.64deg, #086FF5 -22.94%, rgba(36, 177, 254, 0.15) 105.79%);
+    background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: transparent;
+}
+
+
+.road__buy {
+    text-align: center;
+    margin-top: 110px;
+    margin: 0 auto;
+    background: radial-gradient(56.24% 163.86% at 17.55% 182.14%, #2C354E 0%, #0E172E 100%);
+border-radius: 30px;
+max-width: 633px;
+padding: 65px 55px;
+margin-bottom: 96px;
+&-title {
+    font-size: 32px;
+    line-height: 90%;
+    margin-bottom: 24px;
+}
+}

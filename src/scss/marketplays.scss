@@ -1,0 +1,36 @@
+
+.marketplays {
+    position: relative;
+    padding-bottom: 290px;
+    &__inner {
+        position: relative;
+    }
+}
+
+.fitness-girl {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -3;
+}
+
+.marketplays__info {
+    padding-top: 90px;
+    max-width: 410px;
+}
+    .marketplays__info-title {
+        font-family: 'FuturaDemiC';
+        font-weight: 600;
+        font-size: 72px;
+        line-height: 80px;
+        color: #FFFFFF;
+        padding-bottom: 24px;
+    }
+
+    .marketplays__cirle {
+        position: absolute;
+        top: 4rem;
+        right: 0rem;
+        z-index: -1;
+    }
+   

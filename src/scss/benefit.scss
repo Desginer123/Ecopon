@@ -1,0 +1,141 @@
+
+
+.benefit {
+   min-height: 1530px;
+  padding-bottom: 194px;
+    &__inner {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+       height: 120vh;
+    }
+    .benefit__wrapper {
+        display: flex;
+        margin: 0 -22px;
+        padding-top: 184px;
+      
+    }
+    .benefit__box-first {
+        padding-top: 50px;
+    }
+    .benefit__box-second {
+        position: relative;
+        &::before {
+            content: "";
+            position: absolute;
+            border-right: 1px solid #949494;
+            width: 200px;
+            top: 12rem;
+            left: -243px;
+            height: 60rem;
+            z-index: 1;
+            
+        }
+    }
+    .benefit-title {
+        text-transform: inherit;
+        padding-bottom: 91px;
+    }
+    .benefit__card {
+        position: relative;
+        margin-bottom: 72px;
+        border: 1px solid #949494;
+        border-radius: 15px;
+        max-width: 736px;
+        &-wrapper {
+            display: flex;
+            padding: 48px;
+        }
+       
+    }
+    .benefit__card--right {
+        width: 633px;
+    }
+    .benefit__info {
+        padding-left: 32px;
+    }
+   
+    .benefit__card-text {
+        font-size: 24px;
+        line-height: 27px;
+        p {
+            padding-bottom: 14px;
+        }
+    }
+}
+
+.circle {
+    position: absolute;
+    z-index: 2;
+}
+
+.circle-1 {
+    top: 50%;
+    left: -55px;
+    &::before {
+        content: "";
+        position: absolute;
+        display: block;
+        border: 1px solid #949494;
+        top: 52%;
+        left: -35px;
+        width: 34px;
+    }
+}
+
+.circle-2 {
+    right: -53px;
+    top: 24%;
+    &::before {
+        content: "";
+        position: absolute;
+        display: block;
+        border: 1px solid #949494;
+        top: 26%;
+        right: -35px;
+        width: 34px;
+    }
+}
+
+.circle-3 {
+    top: 58%;
+    left: -55px;
+    &::before {
+        content: "";
+        position: absolute;
+        display: block;
+        border: 1px solid #949494;
+        top: 60.3%;
+        left: -35px;
+        width: 34px;
+    }
+}
+
+.circle-4 {
+    right: -53px;
+    top: 24%;
+    &::before {
+        content: "";
+        position: absolute;
+        display: block;
+        border: 1px solid #949494;
+        top: 26.3%;
+        right: -35px;
+        width: 34px;
+    }
+}
+
+.circle-5 {
+    top: 60%;
+    left: -55px;
+    &::before {
+        content: "";
+        position: absolute;
+        display: block;
+        border: 1px solid #949494;
+        top: 62%;
+        left: -35px;
+        width: 34px;
+    }
+}
+

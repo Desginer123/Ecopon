@@ -1,0 +1,37 @@
+.token {
+    position: relative;
+    padding-top: 280px;
+}
+
+.token__box {
+    background: radial-gradient(56.24% 163.86% at 17.55% 182.14%, #2C354E 0%, #0E172E 100%);
+    border-radius: 30px;
+    width: 100%;
+
+    &-wrapper {
+        padding: 62px 0 63px 72px;
+        max-width: 700px;
+    }
+    &-title {
+       padding-bottom: 40px;
+        font-family: FuturaDemiC;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 90%;
+        color: #FFFFFF
+    }
+    &-text {
+        font-size: 32px;
+        line-height: 90%;
+        
+    }
+    .token-btn {
+        margin-top: 64px;
+    }
+}
+
+.token-phone {
+    position: absolute;
+    top: 14.4rem;
+    right: 17.4rem;
+}

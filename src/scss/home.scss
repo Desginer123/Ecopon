@@ -1,11 +1,10 @@
 .home {
-    padding-bottom: 174px;
+    margin-bottom: 284px;
 }
 .home__inner {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
 }
 .main__box {
     font-family: 'FuturaBookC';
@@ -43,12 +42,25 @@
         color: #fff;
     }
     &-buy {
+
         padding-top: 33px;
         display: flex;
         align-items: center;
     }
+
+    .market {
+        z-index: 50;
+    }
     .google-play {
+        
+        cursor: pointer;
         margin: 5px 16px 0 48px;
+        img {
+            cursor: pointer;
+        }
+    }
+    .store {
+        z-index: 50;
     }
     .appstore {
         padding-top: 5px;
