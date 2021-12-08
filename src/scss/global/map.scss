@@ -113,3 +113,378 @@
     top: 23rem;
     left: 1rem;
 }
+
+
+@media screen and (max-width:1450px) {
+    .point--6 {
+        top: 13rem;
+        left: -3rem;
+    }
+}
+
+@media screen and (max-width:1435px) {
+    .person.person-4 {
+        top: 11rem;
+        left: 13rem;
+    }
+    .title.map__title {
+        font-size: 53px;
+    }
+}
+
+@media screen and (max-width: 1383px) {
+    .map__item-title {
+        font-size: 23px;
+    }
+    .map a {
+        font-size: 16px;
+    }
+    .map__items {
+        align-items: center;
+    margin: 0 64px;
+    }
+}
+
+@media screen and (max-width: 1265px) {
+    .point--5 {
+        top: 22rem;
+        left: 13rem;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .person {
+        img {
+            width: 80px;
+        }
+    }
+    .person.person-4 {
+        top: 14rem;
+        left: 18rem;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .person.person-2 {
+        top: 4rem;
+        right: 15rem;
+    }
+    .point--1 {
+        top: 13rem;
+        left: 5rem;
+    }
+    .title.map__title {
+        font-size: 43px;
+    }
+    .map .btn-map {
+        padding: 22px 44px;
+    }
+    .map .btn-paper {
+        padding: 22px 72px;
+    }
+    .btn {
+        font-size: 21px;
+        padding: 23px 68px;
+    }
+}
+
+@media screen and (max-width:1114px) {
+    .person.person-4 {
+        top: 14rem;
+        left: 14rem;
+    }
+    .person img {
+        width: 60px;
+    }
+    .map__item-title {
+        font-size: 19px;
+        padding-bottom: 6px;
+    }
+    .map a {
+        font-size: 14px;
+    }
+    .title.map__title {
+        font-size: 38px;
+    }
+}
+
+@media screen and (max-width: 1074px) {
+    .point {
+        width: 9px;
+        height: 9px;
+    }
+}
+
+@media screen and (max-width: 978px) {
+    .point--5 {
+        top: 21rem;
+        left: 7rem;
+    }
+    .person.person-5 {
+        top: 22rem;
+        left: -1rem;
+    }
+    .person.person-2 {
+        top: 4rem;
+        right: 7rem;
+    }
+    .map__items {
+        display: block;
+        padding-top: 17px;
+    }
+    .map__item {
+        margin-bottom: 22px;
+    }
+    .map__item-title {
+        padding-bottom: 0;
+ }
+ .point--6 {
+    top: 16rem;
+    left: -8rem;
+}
+.person.person-4 {
+    top: 14rem;
+    left: 9rem;
+}
+.point--5 {
+    top: 23rem;
+    left: -2rem;
+}
+.person.person-5 {
+    top: 26rem;
+    left: -11rem;
+}
+}
+
+@media screen and (max-width:934px) {
+    .person.person-1 {
+        top: 29rem;
+        left: 3rem;
+    }
+    .point--1 {
+        top: 33rem;
+        left: 7rem;
+    }
+    .point--3 {
+        display: none;
+    }
+    .person-3 {
+        top: 34rem;
+        right: -10rem;
+    }
+    .point--4 {
+        top: 32rem;
+        left: 8rem;
+    }.person.person-2 {
+        top: 3rem;
+        right: 7rem;
+    }
+}
+
+@media screen and (max-width: 806px) {
+    .point--6 {
+        top: 16rem;
+        left: -7rem;
+    }
+    .person.person-5 {
+        top: 21rem;
+        left: -3rem;
+    }
+    .point--5 {
+        top: 21rem;
+        left: 2rem;
+    }
+    .person-3 {
+        top: 33rem;
+        right: -14rem;
+    }
+    .point--4 {
+        top: 29rem;
+        left: 12rem;
+    }
+}
+
+@media screen and (max-width: 758px) {
+    .person.person-1 {
+        top: 29rem;
+        left: 0rem;
+    }
+    .point--1 {
+        top: 33rem;
+        left: 4rem;
+    }
+}
+
+@media screen and (max-width: 674px) {
+    .map__inner {
+        background-position-x: -64rem;
+    }
+}
+
+@media screen and (max-width: 626px) {
+    .point--6 {
+        top: 12rem;
+        left: -3rem;
+    }
+    .point--5 {
+        top: 20rem;
+        left: 3rem;
+    }
+    .person.person-5 {
+        top: 21rem;
+        left: 0rem;
+    }
+    .person-3 {
+        top: 30rem;
+        right: -14rem;
+    }
+}
+
+
+@media screen and (max-width: 538px) {
+    .title.map__title {
+        font-size: 31px;
+    }
+    .map__item-title {
+        font-size: 18px;
+        padding-bottom: 6px;
+    }
+    .map .btn-paper {
+        padding: 19px 56px;
+    }
+    .button {
+        padding: 15px 0;
+        z-index: 50;
+    }
+    .map__item-social {
+        width: 15px;
+    }
+    .map a {
+        padding: 19px 51px;
+    }
+    .map .btn-map {
+        padding: 21px 37px;
+    }
+    .person img {
+        width: 45px;
+    }
+    .person.person-4 {
+        top: 13rem;
+        left: 5rem;
+    }
+    .person.person-5 {
+        top: 20rem;
+        left: 0;
+    }
+    .point--4 {
+        top: 25rem;
+        left: 11rem;
+    }
+    .person-3 {
+        top: 26rem;
+        right: -12rem;
+    }
+    .person.person-2 {
+        top: 11rem;
+        right: 2rem;
+    }
+    .point--2 {
+        right: 2rem;
+        top: 8rem;
+    }
+    .person.person-1 {
+        top: 28rem;
+        left: 5rem;
+    }
+    .point--1 {
+        top: 26rem;
+        left: 3rem;
+    }
+}
+
+
+@media screen and (max-width:449px) {
+    .person-3 {
+        top: 26rem;
+        right: -9rem;
+    }
+    .point--4 {
+        top: 24rem;
+        left: 7rem;
+    }
+    .person.person-5 {
+        top: 21rem;
+        left: -2rem;
+    }
+}
+
+@media screen and (max-width: 401px) {
+    .point--6 {
+        top: 10rem;
+        left: -4rem;
+    }
+    .person.person-4 {
+        top: 11rem;
+        left: 4rem;
+    }
+    .point--5 {
+        top: 17rem;
+        left: 2rem;
+    }
+    .person.person-5 {
+        top: 18rem;
+        left: -2rem;
+    }
+    .point--4 {
+        top: 23rem;
+        left: 7rem;
+    }
+
+}
+
+
+@media screen and (max-width: 393px) {
+    .map__item-social {
+        svg {
+            width: 15px;
+        }
+    }
+    .point--2 {
+        right: 4rem;
+        top: 9rem;
+    }
+    .person.person-2 {
+        top: 12rem;
+        right: 4rem;
+    }
+    .person.person-1 {
+        top: 28rem;
+        left: 2rem;
+    }
+}
+
+
+@media screen and (max-width: 364px) {
+    .point--6 {
+        top: 10rem;
+        left: -3rem;
+    }
+    .person.person-5 {
+        top: 18rem;
+        left: 0rem;
+    }
+    .person-3 {
+        top: 25rem;
+        right: -9rem;
+    }
+    .map__item-title {
+        font-size: 15px;
+        padding-bottom: 6px;
+    }
+    .map a {
+        font-size: 10px;
+    }
+    .map__item {
+        margin-bottom: 9px;
+    }
+}
