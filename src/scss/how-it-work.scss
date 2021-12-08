@@ -10,6 +10,13 @@
     z-index: -1;
 }
 
+.work__side.work__side--1 {
+    .work__side-title {
+        margin-top: 73px;
+    }
+    
+}
+
 .work__ellipse-2 {
     position: absolute;
     top: -2rem;
@@ -30,6 +37,9 @@
 
 .arrow-1--mobile {
     position: absolute;
+    visibility: hidden;
+}
+.arrow-block, .arrow-block-2 {
     visibility: hidden;
 }
 
@@ -439,6 +449,41 @@ z-index: 5;
     .arrow-1, .arrow-2, .arrow-3, .arrow-4,  .esp-1, .esp-2, .esp-3 {
         display: none;
     }
+    .arrow-block {
+        visibility: inherit;
+        position: absolute;
+        width: 271px;
+        right: 8.4rem;
+        height: 739px;
+        border: 1px dashed #949494;
+        top: 4rem;
+        z-index: -1;
+        border-right: 1px solid transparent;
+    .arrow-block-arr {
+        color: #949494;
+        position: absolute;
+        bottom: -1rem;
+        left: 3.3rem;
+        font-size: 27px;
+    }
+    }
+    .arrow-block-2 {
+        visibility: inherit;
+        position: absolute;
+    width: 170px;
+    height: 300px;
+    border: 1px dashed;
+    right: 0;
+    top: 36rem;
+    border-left: 1px solid transparent;
+    .arrow-block-arr-2 {
+        color: #949494;
+        position: absolute;
+        bottom: -1rem;
+        left: -0.3rem;
+        font-size: 27px;
+    }
+    }
     .work__wrapper {
         display: block;
     }
@@ -523,9 +568,15 @@ z-index: 5;
          }
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 660px) {
         .work__center {
             width: 400px;
+        }
+        .arrow-block {
+            right: 3.4rem;
+        }
+        .arrow-block-2 {
+            width: 101px;
         }
         .climbet-box {
             width: 350px;
@@ -558,13 +609,9 @@ z-index: 5;
     }
   
 
-    @media screen and (max-width: 472px) {
-        .work__ellipse-1, .work__ellipse-2 {
-            width: 200px;
-        }
-    }
+   
 
-    @media screen and (max-width: 430px) {
+    @media screen and (max-width: 520px) {
         .esp-3-mobile-2 {
             visibility: inherit;
             text-align: center;
@@ -572,6 +619,26 @@ z-index: 5;
             right: -6rem;
             top: 16rem;
             max-width: 200px;
+        }
+        .work__ellipse-1, .work__ellipse-2 {
+            width: 200px;
+        }
+        .arrow-block {
+            width: 206px;
+            height: 581px;
+            .arrow-block-arr {
+                font-size: 16px;
+                left: 3.7rem;
+            }
+        }
+        .arrow-block-2 {
+            height: 189px;
+            width: 46px;
+            right: 0;
+            top: 31rem;
+            .arrow-block-arr-2 {
+                font-size: 16px;
+            }
         }
         .esp-3-mobile {
             visibility: inherit;
@@ -697,4 +764,11 @@ z-index: 5;
             width: 280px;
             line-height: 25px;
         }
+        .arrow-block {
+            width: 162px;
+            .arrow-block-arr {
+                left: 0.9rem;
+            }
+        }
+       
     }
