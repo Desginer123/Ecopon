@@ -66,3 +66,17 @@
     line-height: 37px;
     color: #FFFFFF;
 }
+
+
+
+@media screen and (max-width: 1196px) {
+    .application__box-text p {
+        padding-bottom: 10px;
+    }
+    .application__wrapper {
+        grid-column-gap: 10px;
+    }
+    .application__wrap {
+        grid-column-gap: 10px;
+    }
+}

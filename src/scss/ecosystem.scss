@@ -1,6 +1,6 @@
 .ecosystem {
     position: relative;
-    padding-bottom: 190px;
+    padding-bottom: 110px;
     &__inner {
         background-repeat: no-repeat;
         background-size: cover;
@@ -105,14 +105,87 @@ z-index: 50;
     }
     .ecosystem__text {
         font-size: 20px;
+        padding-bottom: 10px;
     }
     .ecosystem-vector {
         left: 13rem;
+        display: none;
     }
 }
 
 @media screen and (max-width: 1238px) {
     .ecosystem-vector {
         left: 8rem;
+    }
+}
+
+@media screen and (max-width: 1222px) {
+    .ecosystem__card .card-title {
+        font-size: 25px;
+        line-height: 27px;
+    }
+    .ecosystem__text {
+        font-size: 18px;
+    }
+    .title.system__title {
+        font-size: 54px;
+    line-height: 75%;
+    }
+}
+
+@media screen and (max-width: 1114px) {
+    .ecosystem-vector {
+        left: 5rem;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .ecosystem__wrapper {
+        display: block;
+    }
+    .ecosystem__wrap {
+        display: block;
+    }
+    .ecosystem__card {
+        margin-bottom: 16px;
+    }
+    .ecosystem__card--1 {
+        margin-left: 50px;
+        border: none;
+    }
+    .ecosystem__wrap.ecosystem__card  {
+        margin-bottom: 16px;
+    }
+    .ecosystem-vector {
+        left: -21rem;
+        top: 40rem;
+    }
+    .fitness-man {
+        top: 32rem;
+    right: 0;
+    img {
+        width: 381px;
+    }
+    }
+} 
+
+@media screen and (max-width: 500px) {
+    .ecosystem__logo img {
+        padding: 0px 53px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .ecosystem__card {
+        width: 244px;
+    }
+    .ecosystem__card .card-title {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .ecosystem__logo {
+        img {
+            width: 91%;
+        }
     }
 }

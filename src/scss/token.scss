@@ -1,12 +1,15 @@
 .token {
     position: relative;
-    padding-top: 280px;
+    padding-bottom: 280px;
+
 }
 
 .token__box {
     background: radial-gradient(56.24% 163.86% at 17.55% 182.14%, #2C354E 0%, #0E172E 100%);
     border-radius: 30px;
     width: 100%;
+    max-height: 392px;
+    display: flex;
 
     &-wrapper {
         padding: 62px 0 63px 130px;
@@ -31,7 +34,102 @@
 }
 
 .token-phone {
-    position: absolute;
-    top: 14.4rem;
-    right: 17.4rem;
+    margin-top: -30px;
+}
+
+@media screen and (max-width:1377px) {
+    .token__box-title {
+        font-size: 26px;
+    line-height: 98%;
+    }
+    .token__box-text {
+        font-size: 26px;
+        line-height: 84%;
+    }
+    .token-phone img {
+        width: 551px;
+    }
+}
+
+@media screen and (max-width: 1269px) {
+    .token-phone img{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 1178px) {
+    .token-phone img{
+        margin-top: 0px;
+        width: 464px;
+    }
+    .token__box-title {
+        font-size: 22px;
+        line-height: 98%;
+    }
+    .token__box-text {
+        font-size: 22px;
+        line-height: 84%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .token__box {
+        display: block;
+        text-align: center;
+    }
+    .token__box-wrapper {
+        padding: 62px 63px 63px 63px;
+        max-width: 100%;
+    }
+    .token-phone img {
+        margin-top: -42px;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 668px) {
+    .token__box .token-btn {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 541px) {
+    .token-phone img {
+
+        width: 350px;
+    }
+    .token__box-title {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .token__box-text {
+        font-size: 18px;
+        line-height: 19px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .token__box-wrapper {
+        padding: 62px 3px 63px;
+        max-width: 100%;
+    }
+    .token-phone img {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 364px) {
+    .token__box .token-btn {
+        margin-top: 0;
+    }
+    .token__box-title {
+        padding-bottom: 11px;
+    }
+    .token__box-wrapper {
+        padding: 62px 31px 63px;
+        max-width: 100%;
+        max-height: 280px;
+    }
+   
+    
 }
