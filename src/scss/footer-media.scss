@@ -75,6 +75,18 @@
   .footer__inner {
     padding-top: 48px;
   }
+  .footer__box-buy picture {
+    display: none;
+  }
+  .market .gp-footer .footer-gp{
+    display: none;
+  }
+  .store .appstore .as-footer {
+    display: none;
+  }
+  .footer__box-buy {
+    justify-content: center;
+  }
 }
 @media (min-width: 1185px) {
   .mobile-footer-logo {
@@ -86,4 +98,5 @@
   .mobile-footer-description {
     display: none;
   }
+
 }
