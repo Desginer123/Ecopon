@@ -33,10 +33,13 @@
             color: #FFFFFF;
         }
     }
+   
+
     &__language {
         font-weight: 600;
         font-size: 18px;
         line-height: 21px;
+        margin-top: 9px;
         a {
             color: #253048;
         }
@@ -47,6 +50,7 @@
     }
     &__social {
        padding-right: 10px;
+       padding-top: 4px;
         svg {
             margin-left: 20px;
         }
@@ -272,7 +276,10 @@
         opacity          : 1;
         visibility       : visible
       }
-
+    
+      .home {
+          margin-bottom: 94px;
+      }
 
 
 }
@@ -352,6 +359,10 @@
     }
     .main__box-buy img {
         width: 100px;
+    }
+    .main__box-text {
+        font-size: 18px;
+        max-width: 12.9rem;
     }
 }
 

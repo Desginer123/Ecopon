@@ -160,6 +160,7 @@
     .platform__wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
      }
      .platform--3 {
          grid-column: span 2;
