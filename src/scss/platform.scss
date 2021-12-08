@@ -3,7 +3,7 @@
     padding-bottom: 194px;
 }
 .platform__title {
-    
+
     padding-bottom: 194px;
 }
 .platform__wrapper {
@@ -98,10 +98,10 @@
 }
 
 @media screen and (max-width: 1325px) {
-    
+
     .platform__box-text {
         font-size: 17px;
-    } 
+    }
     .platform__box-title {
         font-size: 26px;
     }
@@ -193,6 +193,9 @@
         top: 31.6rem;
         left: 9.1rem;
     }
+    .platform {
+      padding-bottom: 0;
+    }
 }
 
 @media screen and (max-width: 752px) {
@@ -232,7 +235,7 @@
     .platform__box .platform__image {
         top: -5rem;
         left: 5rem;
-    } 
+    }
     .platform__title {
         font-size: 41px!important;
     }

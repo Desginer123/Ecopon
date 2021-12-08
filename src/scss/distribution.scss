@@ -4,7 +4,6 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        height: 125vh;
 
     }
     &__title {
@@ -175,6 +174,9 @@
 @media (max-width: 600px) {
   .token__statistics {
     width: 100%;
+  }
+  .distribution {
+    padding-bottom: 40px;
   }
   .token__statistics-color {
     margin-right: 15px;
