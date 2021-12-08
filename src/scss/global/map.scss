@@ -1,5 +1,6 @@
 .map {
     padding-bottom: 110px;
+    overflow-x: scroll;
     &__inner {
         background-repeat: no-repeat;
         background-size:cover;
@@ -405,7 +406,7 @@
 
 @media screen and (max-width: 476px) {
     .map .btn-paper {
-        
+
         padding: 13px 38px
     }
     .map__item .btn {

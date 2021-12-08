@@ -1,6 +1,7 @@
 .ecosystem {
     position: relative;
     padding-bottom: 110px;
+    overflow-x: hidden;
     &__inner {
         background-repeat: no-repeat;
         background-size: cover;
@@ -221,6 +222,10 @@ display: inline;
     .ecosystem__logo img {
         padding: 0px 53px;
     }
+    .fitness-man {
+    top: 32rem;
+    right: -135px;
+}
 
 
 }
@@ -230,8 +235,12 @@ display: inline;
         width: 244px;
     }
     .ecosystem__card .card-title {
-        font-size: 18px;
+        font-size: 20px;
         line-height: 27px;
+        padding-left: 0;
+    }
+    .ecosystem__text, .ecosystem__link {
+      font-size: 16px;
     }
     .ecosystem__logo {
         img {

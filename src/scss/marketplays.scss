@@ -113,6 +113,12 @@
         font-size: 34px;
         line-height: 32px;
     }
+    .marketplays__image {
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+      justify-content: center;
+    }
    }
 
    @media screen and (max-width:692px) {

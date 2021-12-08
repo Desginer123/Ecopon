@@ -221,13 +221,13 @@
 
 @media screen and (max-width: 420px) {
     .platform__box {
-        width: 280px;
+        width: 100%;
     }
     .platform__box-container {
         padding: 0 20px;
     }
     .platform__box-title {
-        font-size: 18px;
+        font-size: 23px;
     }
     .platform__box .platform__image img {
         width: 130px;

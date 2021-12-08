@@ -164,6 +164,19 @@ font-style: normal;
 font-weight: normal;
 font-size: 18px;
 line-height: 20px;
+
+  &.blured {
+
+    img {
+      filter: brightness(30%);
+      transition: filter 0.3s ease-in-out;
+    }
+
+  }
+  img {
+    filter: brightness(100%);
+    transition: filter 0.3s ease-in-out;
+  }
     }
     .user-name--1 {
         padding-top: 6px;
@@ -212,6 +225,8 @@ z-index: 5;
         padding-top: 24px;
     }
 }
+
+
 
 .proof {
     padding-top: 38px;
@@ -632,10 +647,10 @@ z-index: 5;
             }
         }
         .arrow-block-2 {
-            height: 189px;
-            width: 46px;
-            right: 0;
-            top: 31rem;
+          height: 189px;
+          width: 90px;
+          right: -40px;
+          top: 31rem;
             .arrow-block-arr-2 {
                 font-size: 16px;
             }
@@ -781,5 +796,10 @@ z-index: 5;
                 left: 0.9rem;
             }
         }
-
+        .arrow-block-2 {
+          height: 189px;
+          width: 60px;
+          right: -10px;
+          top: 31rem;
+        }
     }

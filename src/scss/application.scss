@@ -1,6 +1,7 @@
 .application {
     padding-bottom: 240px;
     position: relative;
+    overflow-x: hidden;
     &__wrapper {
         display: grid;
         grid-template-columns: 3fr 3fr 3fr;

@@ -2,6 +2,7 @@
     position: relative;
     padding-bottom: 70px;
     padding-top: 130px;
+    overflow-x: hidden;
 }
 
 
@@ -92,7 +93,7 @@
         margin-bottom: 24px;
     }
 
-    
+
     &-date {
         font-size: 32px;
         line-height: 37px;
@@ -217,7 +218,7 @@
         left: -236px;
         height: 117rem;
         z-index: -1;
-        
+
     }
 }
 
@@ -292,7 +293,7 @@
     .percent__info {
         padding-bottom: 11px;
     }
-    
+
         .percent__info {
             padding-bottom: 25px;
         }
@@ -302,7 +303,7 @@
         .sale__wrapper-box--second::before {
             height: 108rem;
         }
-    
+
 }
 
 
@@ -384,7 +385,7 @@
 @media screen and (max-width: 534px) {
     .sale-title {
         font-size: 49px;
-        
+
     }
 }
 
@@ -447,7 +448,7 @@
 .sale__box .sale__box-condition {
     font-size: 18px;
 }
-    
+
 }
 
 
@@ -488,7 +489,7 @@
     }
     .sale__box-price__text {
         font-size: 14px;
-        width: auto;    
+        width: auto;
     }
     .sale__box-price__cost {
         font-size: 14px;
@@ -512,7 +513,7 @@
     }
     .sale__box {
         min-width: 259px;
-        
+
     }
     .sale__box-list {
         font-size: 14px;
@@ -524,7 +525,7 @@
         height: 172.6rem;
         top: -69.5rem;
     }
-    
+
 }
 
 @media screen and (max-width:446px) {
