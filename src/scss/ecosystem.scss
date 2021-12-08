@@ -5,7 +5,6 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        height: 100vh;
     }
 }
 
@@ -87,4 +86,33 @@ z-index: 50;
     right: 0;
     top: 8rem;
     z-index: -1;
+}
+
+
+@media screen and (max-width:1439px) {
+    .ecosystem__card {
+        width: 384px;
+    }
+}
+
+@media screen and (max-width: 1370px) {
+    .ecosystem__card .card-title {
+        padding-top: 0px;
+    line-height: 37px;
+    }
+    .ecosystem__card {
+        padding: 52px 32px;
+    }
+    .ecosystem__text {
+        font-size: 20px;
+    }
+    .ecosystem-vector {
+        left: 13rem;
+    }
+}
+
+@media screen and (max-width: 1238px) {
+    .ecosystem-vector {
+        left: 8rem;
+    }
 }
