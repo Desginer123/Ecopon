@@ -22,12 +22,12 @@
     align-items: center;
     padding-bottom: 32px;
     position: relative;
-    z-index: 50; 
+    z-index: 50;
 }
 
 .fitness-man {
     position: absolute;
-   
+
     top: 5rem;
 }
 
@@ -38,6 +38,10 @@
     z-index: -1;
 }
 
+
+.mobile-eco {
+  display: none;
+}
 
 .ecosystem__card--1 {
     border: 2px solid #24B1FE;
@@ -60,11 +64,11 @@ z-index: 50;
 .ecosystem__logo {
 
     img {
-        padding: 0 96px; 
+        padding: 0 96px;
     }
 }
 .ecosystem__link {
-   
+
     a {
         color: #FFFFFF;
          text-decoration-line: underline;
@@ -74,6 +78,7 @@ z-index: 50;
     display: flex;
     justify-content: center;
     z-index: 50;
+    position: relative;
 }
 
 .card-right {
@@ -167,12 +172,57 @@ z-index: 50;
         width: 381px;
     }
     }
-} 
+    .title.system__title {
+      font-size: 24px;
+    }
+    .ecosystem-vector {
+    left: -21.5rem;
+    top: 39rem;
+    transform: rotate(90deg);
+z-index: -5;
+display: inline;
+  }
+  .desctop-eco {
+    display: none;
+  }
+  .mobile-eco {
+    display: inline;
+    position: relative;
+    z-index: 12;
+  }
+  .ecosystem__wrap .ecosystem__card.card-right {
+    position: relative;
+    z-index: 5;
+    margin-top: 32px;
+  }
+  .ecosystem__card .card-title {
+    text-align: left;
+  }
+  .ecosystem__text {
+    text-align: left;
+  }
+  .ecosystem__link {
+    text-align: left;
+  }
+  .system__title {
+    padding-bottom: 24px;
+    padding-top: 0;
+  }
+
+  .ecosystem__wrapper {
+    padding-top: 0px;
+  }
+  .ecosystem {
+    padding-bottom: 80px;
+  }
+}
 
 @media screen and (max-width: 500px) {
     .ecosystem__logo img {
         padding: 0px 53px;
     }
+
+
 }
 
 @media screen and (max-width: 460px) {

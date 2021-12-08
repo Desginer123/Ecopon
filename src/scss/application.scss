@@ -39,7 +39,7 @@
     top: -3rem;
     left: 11rem;
     }
-   
+
 }
 
 
@@ -300,13 +300,14 @@
         top: -3rem;
         left: 8rem;
     }
-    
+
 }
 
 @media screen and (max-width: 376px) {
     .box-text.app-text {
         font-size: 17px;
         padding-bottom: 104px;
+        line-height: 20px;
     }
 }
 

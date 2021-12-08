@@ -41,7 +41,7 @@
            }
        }
    }
-   
+
 
    @media screen and (max-width: 1263px) {
     .marketplays__info-title {
@@ -103,6 +103,9 @@
         width: 340px;
         top: 2rem;
     }
+    .marketplays__info {
+      padding-top: 0;
+    }
    }
 
    @media screen and (max-width:744px) {
@@ -121,5 +124,12 @@
    @media screen and (max-width: 510px) {
     .marketplays__cirle img {
         width: 300px;
+    }
+    .marketplays {
+      padding-bottom: 80px;
+      padding-top: 40px;
+    }
+    .marketplays__info {
+      padding-top: 0;
     }
    }

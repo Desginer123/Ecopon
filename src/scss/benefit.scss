@@ -12,7 +12,7 @@
         display: flex;
         margin: 0 -22px;
         padding-top: 184px;
-      
+
     }
     .benefit__box-first {
         padding-top: 50px;
@@ -28,7 +28,7 @@
             left: -243px;
             height: 60rem;
             z-index: 1;
-            
+
         }
     }
     .benefit-title {
@@ -45,7 +45,7 @@
             display: flex;
             padding: 48px;
         }
-       
+
     }
     .benefit__card--right {
         width: 633px;
@@ -53,7 +53,7 @@
     .benefit__info {
         padding-left: 32px;
     }
-   
+
     .benefit__card-text {
         font-size: 24px;
         line-height: 27px;
@@ -177,7 +177,7 @@
     .benefit .benefit__info {
         padding-left: 0;
     }
-} 
+}
 
 @media screen and (max-width: 1355px) {
     .benefit .benefit__card--right, .benefit__card {
@@ -348,7 +348,7 @@
     }
     .benefit .benefit__box-second::before {
         height: 69rem;
-   
+
     }
 }
 
@@ -398,7 +398,7 @@
     .box-title.benefit-title {
         text-align: center;
     }
-    
+
 }
 
 
@@ -453,7 +453,7 @@
     }
 }
 
-@media screen and (max-width: 891px){ 
+@media screen and (max-width: 891px){
     .benefit .benefit__box-second::before {
     height: 118rem;
     top: -51rem;
@@ -461,7 +461,7 @@
 }
  }
 
- @media screen and (max-width: 888px) { 
+ @media screen and (max-width: 888px) {
 .benefit .benefit__box-second::before {
     height: 119rem;
     top: -52rem;
@@ -474,7 +474,7 @@
         padding-bottom: 0;
 
     }
-   
+
 .benefit .benefit__box-second::before {
     height: 120rem;
     top: -53rem;
@@ -489,7 +489,7 @@
 
 
 
-@media screen and (max-width: 847px) { 
+@media screen and (max-width: 847px) {
 .benefit .benefit__box-second::before {
     height: 123rem;
     top: -54rem;
@@ -561,12 +561,12 @@
     .benefit .benefit__box-second::before {
         height: 134rem;
     }
-    
+
 }
 
 @media screen and (max-width: 749px) {
     .benefit .benefit__box-second::before {
-       
+
         left: 0px;
     }
 }
@@ -608,7 +608,7 @@
     }
 }
 
-@media screen and (max-width: 729px) { 
+@media screen and (max-width: 729px) {
 .benefit .benefit__box-second::before {
     top: -61rem;
     height: 140rem;
@@ -644,20 +644,20 @@
 }
 
 
-@media screen and (max-width: 713px) { 
+@media screen and (max-width: 713px) {
 .benefit .benefit__box-second::before {
     top: -55rem;
     height: 127rem;
 }
 }
 
-@media screen and (max-width: 700px) { 
+@media screen and (max-width: 700px) {
 .benefit .benefit__box-second::before {
         top: -57rem;
         height: 130rem;
 }
 }
-@media screen and (max-width: 694px) { 
+@media screen and (max-width: 694px) {
     .benefit .benefit__box-second::before {
             left: -4px;
     }
@@ -699,11 +699,11 @@
     }
 }
 @media screen and (max-width: 676px) {
-   
+
         .benefit .benefit__box-second::before {
             height: 138rem;
         }
-   
+
 }
 
 @media screen and (max-width: 656px) {
@@ -778,14 +778,14 @@
 @media screen and (max-width: 617px) {
     .benefit .benefit__box-second::before  {
         top: -59rem;
-    
+
     }
 }
 @media screen and (max-width: 609px) {
     .benefit .benefit__box-second::before  {
         top: -61rem;
         height: 136rem;
-    
+
     }
 }
 
@@ -817,14 +817,14 @@
     .benefit__info .card-title {
         font-size: 17px;
     }
-    
+
     .circle-1::before, .circle-2::before, .circle-3::before, .circle-4::before, .circle-5::before {
         width: 13px;
         left: -14px;
     }
     .circle  {
         width: 10px;
-        
+
     }
     .circle.circle-2 {
         left: -24px;
@@ -858,6 +858,9 @@
     }
     .benefit__wrapper {
         width: 330px;
+    }
+    .benefit {
+      padding-bottom: 0;
     }
 }
 
