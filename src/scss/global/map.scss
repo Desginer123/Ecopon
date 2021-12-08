@@ -403,6 +403,26 @@
 }
 
 
+@media screen and (max-width: 476px) {
+    .map .btn-paper {
+        
+        padding: 13px 38px
+    }
+    .map__item .btn {
+        font-size: 14px;
+        padding: 14px 28px;
+    }
+    .btn  btn-map {
+        padding: 18px 7px;
+    }
+    .btn a {
+        font-size: 14px;
+    }
+    .map__item {
+        margin-bottom: 2px;
+    }
+}
+
 @media screen and (max-width:449px) {
     .person-3 {
         top: 26rem;
