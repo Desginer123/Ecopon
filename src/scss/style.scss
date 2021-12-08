@@ -23,7 +23,7 @@
         align-items: center;
         padding-top: 72px;
     }
-     
+
     &__nav {
         display: flex;
         a {
@@ -53,7 +53,7 @@
     }
     &__btn {
         .external {
-            
+
             display: block;
             padding: 3px 3px 3px 3px;
             text-align: center;
@@ -81,7 +81,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        
+
     }
     &__nav {
         display: grid;
@@ -173,7 +173,7 @@
         .external {
         font-size: 17px;
         }
-    } 
+    }
     .header__btn .external .internal {
         padding: 9px 23px;
     }
@@ -200,7 +200,7 @@
         font-size: 21px;
         padding: 22px 76px;
     }
-    
+
 }
 
 @media screen and (min-width: 1101px) {
@@ -272,8 +272,8 @@
         opacity          : 1;
         visibility       : visible
       }
-    
-      
+
+
 
 }
 
@@ -382,7 +382,7 @@
         font-size: 30px;
         line-height: 38px;
     }
-} 
+}
 
 @media screen and (max-width: 395px) {
     .main__box-buy img {
@@ -392,7 +392,7 @@
         font-size: 14px;
         padding: 18px 27px;
     }
-} 
+}
 
 
 @media screen and (max-width: 335px) {
@@ -400,3 +400,5 @@
         width: 78px;
     }
 }
+
+@import "./footer-media.scss"
