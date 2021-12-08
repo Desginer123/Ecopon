@@ -3,6 +3,7 @@
     padding-bottom: 190px;
 }
 
+
 .sale__inner {
     position: relative;
 }
@@ -11,30 +12,35 @@
     position: absolute;
     top: 10rem;
     left: -8rem;
+    display: none;
 }
 
 .sale-ellipse--2 {
     position: absolute;
     top: 15rem;
     left: 8rem;
+    display: none;
 }
 
 .sale-blur {
     position: absolute;
     top: 0;
     left: 0;
+    display: none;
 }
 
 .sale-blur--2 {
     position: absolute;
     right: 0;
     top: 50rem;
+    display: none;
 }
 
 .sale-blur--3 {
     position: absolute;
     left: 0;
     bottom: 1rem;
+    display: none;
 }
 
 .sale__wrapper {
@@ -213,3 +219,25 @@
         
     }
 }
+
+
+@media screen and (max-width: 1450px) {
+    .sale__box {
+        margin-right: 75px;
+    }
+    .sale__box.point-2 {
+        top: 12rem;
+        right: -2.3rem !important;
+    }
+}
+
+@media screen and (max-width: 1374px) {
+    .sale__box-number {
+        font-size: 55px;
+        padding-bottom: 17px;
+    }
+    .sale__box-title {
+        font-size: 28px;
+    }
+}
+
