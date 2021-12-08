@@ -370,6 +370,9 @@
     .benefit .benefit__wrapper {
         display: block;
     }
+    .benefit .benefit__wrapper {
+      padding-top: 40px;
+    }
     .benefit .benefit__card-wrapper {
         display: flex;
         text-align: inherit;
@@ -697,6 +700,9 @@
     .benefit .benefit__box-second::before {
         left: -7px;
     }
+    .box-title.benefit-title {
+      font-size: 24px;
+    }
 }
 @media screen and (max-width: 676px) {
 
@@ -828,7 +834,10 @@
     }
     .circle.circle-2 {
         left: -24px;
-        top: 5.4rem;
+        top: 7.4rem;
+    }
+    .circle-2::before {
+        top: 125px
     }
     .circle.circle-4 {
         left: -23px;

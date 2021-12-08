@@ -33,7 +33,7 @@
             color: #FFFFFF;
         }
     }
-   
+
 
     &__language {
         font-weight: 600;
@@ -214,7 +214,9 @@
     }
 
 @media screen and (max-width: 1100px) {
-
+    .header {
+      height: 74px;
+    }
     .header__inner-mobile {
         display: flex;
         font-family: 'FuturaDemiC';
@@ -222,6 +224,10 @@
         display: flex;
         justify-content: space-between;
         padding-top: 36px;
+        // position: fixed;
+        // width: 100%;
+        // max-width: 92%;
+        // z-index: 55555;
     }
     .header__mobile-item {
         display: flex;
@@ -242,7 +248,7 @@
         display: flex;
         justify-content: center;
         position: fixed;
-        top: 0;
+        top: 50%;
         bottom: 0;
         margin: auto;
         right: 0;
@@ -276,7 +282,7 @@
         opacity          : 1;
         visibility       : visible
       }
-    
+
       .home {
           margin-bottom: 94px;
       }
@@ -287,6 +293,9 @@
 @media screen and (max-width: 731px) {
     .box-title {
         font-size: 49px;
+    }
+    .main {
+      overflow-x: hidden
     }
     .btn {
         font-size: 21px;
