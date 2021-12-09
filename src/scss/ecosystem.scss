@@ -74,6 +74,10 @@ z-index: 50;
     a {
         color: #FFFFFF;
          text-decoration-line: underline;
+         transition: .3s;
+         &:hover {
+            color: #24B1FE;
+         }
     }
 }
 .ecosystem__wrap {
