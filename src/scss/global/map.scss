@@ -16,7 +16,12 @@
     }
 
     .btn-map {
-        padding: 26px 61px;
+        font-size: 17px;
+        padding: 25px 30px;
+        margin: 0 auto;
+    }
+    .map__item {
+        width: 334px;
     }
 
     .btn-paper {
@@ -183,9 +188,18 @@
     .map .btn-paper {
         padding: 22px 72px;
     }
-    .map__item .btn {
+    .map__item a.btn {
         font-size: 21px;
-        padding: 23px 68px;
+        padding: 23px 50px;
+        max-width: 187px
+    }
+    .map .map__item {
+        width: 300px;
+    }
+    .map__item a.btn {
+        font-size: 21px;
+        padding: 23px 3px;
+        max-width: 187px;
     }
 }
 
@@ -213,6 +227,13 @@
     .point {
         width: 9px;
         height: 9px;
+    }
+}
+
+@media screen and (max-width: 979px) {
+    .map .map__item {
+        width: 300px;
+        margin: 0 auto;
     }
 }
 
@@ -403,6 +424,17 @@
     }
     .map {
       padding-bottom: 15px;
+    }
+    .map__item a.btn {
+        max-width: 187px;
+        font-size: 14px;
+        padding: 11px 3px;
+        max-width: 164px;
+    }
+    .map__items {
+        display: block;
+        padding-top: 17px;
+        margin: 0 auto;
     }
 }
 

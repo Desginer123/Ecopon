@@ -134,6 +134,8 @@ li {
 	border-radius: 8px;
 	box-shadow: 4px 4px 20px rgba(30, 164, 252, 0.25);
 	transition: all 0.6s ease-in-out;
+	display: block;
+	max-width: 240px;
 	&:hover {
 		background:#064daa;
 		color: #f5f5f5;
