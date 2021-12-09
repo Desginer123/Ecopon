@@ -29,6 +29,13 @@
     background: #0F182D;
     border-radius: 30px;
     text-align: center;
+    border: 2px solid #0F182D;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      border: 2px solid #24b1fe;
+      transition: all 0.3s ease-in-out;
+    }
     &-title{
         padding-top: 61px;
         padding-bottom: 25px;

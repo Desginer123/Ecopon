@@ -106,7 +106,7 @@
         line-height: 21px;
         a {
             color: #fff;
-            transition: .3s; 
+            transition: .3s;
             &:hover {
                 color: #24B1FE;
              }
@@ -167,9 +167,9 @@
     }
     .header__language {
         font-weight: 600;
-        font-size: 15px;
+        font-size: 14px;
         line-height: 21px;
-        padding-left: 10px;
+        padding-left: 15px;
     }
     .header__nav  {
         padding-left: 0;
@@ -178,6 +178,7 @@
         font-size: 16px;
         line-height: 21px;
         color: #fff;
+        padding-right: 5px;
         }
     }
 }
@@ -365,7 +366,7 @@
         padding: 6px 12px;
     }
     .header__language {
-        padding-left: 0;
+        padding-left: 5px;
         font-size: 12px;
     }
     .main__box-buy img {

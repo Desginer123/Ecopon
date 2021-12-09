@@ -46,6 +46,12 @@
             display: flex;
             padding: 48px;
         }
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+          border: 1px solid #24b1fe;
+          transition: all 0.3s ease-in-out;
+        }
 
     }
     .benefit__card--right {

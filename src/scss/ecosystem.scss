@@ -2,7 +2,7 @@
     position: relative;
     padding-bottom: 110px;
     overflow: hidden;
-    
+
     &__inner {
         background-repeat: no-repeat;
         background-size: cover;
@@ -46,7 +46,6 @@
 }
 
 .ecosystem__card--1 {
-    border: 2px solid #24B1FE;
 }
 .ecosystem__card {
     width: 464px;
@@ -59,6 +58,13 @@ padding: 64px 39px;
 text-align: right;
 max-height: 308px;
 z-index: 50;
+border: 2px solid #14213F;
+transition: all 0.3s ease-in-out;
+
+&:hover {
+  border: 2px solid #24b1fe;
+  transition: all 0.3s ease-in-out;
+}
 }
 .ecosystem__card-left {
     text-align: left;

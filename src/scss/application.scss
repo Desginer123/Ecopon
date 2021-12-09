@@ -50,6 +50,13 @@
     background: #14213F;
     border-radius: 30px;
     position: relative;
+    border: 2px solid #14213F;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      border: 2px solid #24b1fe;
+      transition: all 0.3s ease-in-out;
+    }
 }
 .application__image-down {
     position: absolute;

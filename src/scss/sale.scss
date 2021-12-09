@@ -73,7 +73,6 @@
 .sale__box {
     position: relative;
     background: #020C22;
-    border: 1px solid #949494;
     box-sizing: border-box;
     border-radius: 15px;
     max-width: 633px;
@@ -82,6 +81,13 @@
     font-family: FuturaDemiC;
     font-weight: 600;
     margin-bottom: 72px;
+    border: 2px solid #949494;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      border: 2px solid #24b1fe;
+      transition: all 0.3s ease-in-out;
+    }
     &-number {
         font-size: 72px;
         color: rgba(8, 111, 245, 1);
@@ -129,7 +135,7 @@
        }
     }
 
-    
+
     .sale__box-condition {
         font-family: FuturaBookC;
         padding-top: 24px;
