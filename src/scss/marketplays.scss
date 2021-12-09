@@ -34,6 +34,13 @@
         padding-bottom: 24px;
     }
 
+
+    @media screen and (max-width: 1440px) {
+        .marketplays__info-title {
+            font-size: 55px;
+        }
+    }
+
    @media screen and (max-width:1383px) {
        .marketplays__cirle {
            img {
