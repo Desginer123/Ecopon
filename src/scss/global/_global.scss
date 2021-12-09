@@ -126,14 +126,26 @@ li {
 
 }
 .btn {
-	background: linear-gradient(90.11deg, #086FF5 -39.64%, #24B1FE 104.35%);
+	background: #086FF5;
 	font-size: 24px;
-
 	text-transform: uppercase;
 	color: #FFFFFF;
 	padding: 25px 79px;
 	border-radius: 8px;
 	box-shadow: 4px 4px 20px rgba(30, 164, 252, 0.25);
+	transition: all 0.6s ease-in-out;
+	&:hover {
+		background:#064daa;
+		color: #f5f5f5;
+		transition: all 0.6s ease-in-out;
+	}
+}
+
+.social {
+	transition: .3s;
+	&:hover path {
+		fill: #24B1FE;
+	}
 }
 
 .card-title {

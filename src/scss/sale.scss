@@ -52,11 +52,13 @@
     position: relative;
 }
 
-.sale-title {
+.box-title.sale-title {
     top: 4rem;
     position: absolute;
     font-family: FuturaDemiC;
     font-weight: 600;
+    left: 7rem;
+    text-transform: revert;
     font-size: 72px;
     line-height: 80px;
     color: #fff;
@@ -121,6 +123,8 @@
            padding-left: 63px;
        }
     }
+
+    
     .sale__box-condition {
         font-family: FuturaBookC;
         padding-top: 24px;
@@ -231,6 +235,9 @@
         top: 12rem;
         right: -2.3rem !important;
     }
+    .box-title.sale-title {
+        left: 4rem;
+    }
 }
 
 @media screen and (max-width: 1441px) {
@@ -241,6 +248,13 @@
         height: 114rem;
     }
 }
+
+@media screen and (max-width: 1406px) {
+    .box-title.sale-title {
+        left: 2rem;
+    }
+}
+
 
 @media screen and (max-width: 1374px) {
     .sale__box-number {
@@ -254,6 +268,14 @@
         height: 113rem;
     }
 }
+
+@media screen and (max-width: 1366px) {
+    .box-title.sale-title {
+        left: 2rem;
+        font-size: 61px;
+    }
+}
+
 
 @media screen and (max-width: 1274px) {
     .percent__esp {
@@ -307,6 +329,13 @@
 }
 
 
+@media screen and (max-width: 1167px) {
+    .box-title.sale-title {
+        left: 1rem;
+        font-size: 54px;
+    }
+}
+
 
 @media screen and (max-width: 1100px) {
     .sale__wrapper {
@@ -319,6 +348,11 @@
     }
     .point-1::before {
         left: 13px;
+    }
+    .box-title.sale-title {
+        left: 7rem;
+        font-size: 54px;
+        top: 3rem;
     }
     .point-2 {
         position: absolute;
@@ -350,6 +384,15 @@
         height: 199rem;
     }
 }
+
+@media screen and (max-width: 672px) {
+    .box-title.sale-title {
+        left: 5rem;
+        font-size: 48px;
+        top: 3rem;
+    }
+}
+
 @media screen and (max-width: 664px) {
     .sale__wrapper-box--second::before {
         height: 201rem;
@@ -369,6 +412,15 @@
         top: -87rem;
     }
 }
+@media screen and (max-width: 600px) {
+    .box-title.sale-title {
+        left: 3rem;
+        font-size: 48px;
+        top: 3rem;
+    }
+}
+
+
 
 @media screen and (max-width: 559px) {
     .sale__wrapper-box--second::before {
@@ -381,6 +433,14 @@
         height: 213.6rem;
         top: -90rem;
     }
+}
+@media screen and (max-width: 535px) {
+
+    .box-title.sale-title {
+    left: 3rem;
+    font-size: 40px;
+    top: 3rem;
+}
 }
 @media screen and (max-width: 534px) {
     .sale-title {
@@ -525,6 +585,11 @@
         height: 172.6rem;
         top: -69.5rem;
     }
+    .box-title.sale-title {
+        left: 0rem;
+        font-size: 32px;
+        top: 2rem;
+    }
 
 }
 
@@ -532,6 +597,11 @@
     .sale-title {
         font-size: 32px;
         margin-left: 37px;
+    }
+    .box-title.sale-title {
+        left: 3rem;
+        font-size: 32px;
+        top: 4rem;
     }
 }
 @media screen and (max-width:440px) {
@@ -562,14 +632,31 @@
         height: 179rem;
     }
 }
+@media screen and (max-width:375px) {
+    .box-title.sale-title {
+        left: 2rem;
+        font-size: 32px;
+        top: 4rem;
+    }
+}
 @media screen and (max-width:342px) {
     .sale-title {
         font-size: 32px;
         margin-left: 0px;
     }
+    .box-title.sale-title {
+        left: 3rem;
+        font-size: 32px;
+        top: 4rem;
+    }
 }
 @media screen and (max-width:336px) {
     .sale__wrapper-box {
         margin-left: 29px;
+    }
+    .box-title.sale-title {
+        left: 2rem;
+        font-size: 32px;
+        top: 4rem;
     }
 }
