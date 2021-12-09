@@ -1,5 +1,5 @@
 .metrics {
-    padding-bottom: 53px;
+    padding-bottom: 153px;
     position: relative;
     overflow: hidden;
 }
@@ -13,7 +13,7 @@
 .metrics-light {
     position: absolute;
     right: 0;
-    top: 29rem;
+    top: 19rem;
     z-index: -1;
 }
 
@@ -91,6 +91,9 @@
 @media(max-width: 820px) {
   .metrics .title {
     font-size: 32px;
+  }
+  .metrics {
+    padding-bottom: 50px;
   }
   .metrics__wrapper {
     padding-top: 32px;

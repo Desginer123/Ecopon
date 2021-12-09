@@ -1,6 +1,6 @@
 .map {
     padding-bottom: 110px;
-    overflow-x: scroll;
+    overflow: hidden;
     &__inner {
         background-repeat: no-repeat;
         background-size:cover;
@@ -400,6 +400,9 @@
     .point--1 {
         top: 26rem;
         left: 3rem;
+    }
+    .map {
+      padding-bottom: 15px;
     }
 }
 
