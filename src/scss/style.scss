@@ -6,6 +6,19 @@
 
 
 .header {
+  
+       
+    position: fixed;
+    width: 100%;
+    z-index: 555;
+    padding-bottom: 20px;
+    &-wrapper {
+      height: 80px;
+    }
+    &.fixed {
+      background-color: rgba(0,0,0, .5);
+      padding-bottom: 20px;
+    }
     .burger {
         width: 26px;
         z-index: 1;
@@ -21,7 +34,8 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding-top: 72px;
+        padding-top: 12px;
+       
     }
 
     &__nav {
