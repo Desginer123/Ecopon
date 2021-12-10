@@ -86,6 +86,9 @@
         width: 400px;
     }
 }
+.token__box .token-btn .btn {
+  margin: 0 auto
+}
 
 @media screen and (max-width: 668px) {
     .token__box .token-btn {
@@ -124,6 +127,9 @@
 @media screen and (max-width: 364px) {
     .token__box .token-btn {
         margin-top: 0;
+    }
+    .token-phone img {
+      margin-top: 10px;
     }
     .token__box-title {
         padding-bottom: 11px;

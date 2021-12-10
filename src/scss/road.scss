@@ -108,6 +108,10 @@ margin-bottom: 96px;
     line-height: 90%;
     margin-bottom: 24px;
 }
+
+& .button .btn {
+  margin: 0 auto;
+}
 }
 
 
@@ -366,6 +370,7 @@ margin-bottom: 96px;
 .road__item-text {
   font-size: 18px;
 }
+
 
 .border-text.d-2.p-2, .road__item-text.d-1.t--2.p-2 {
   min-height: 165px;
