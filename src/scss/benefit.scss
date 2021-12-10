@@ -757,11 +757,16 @@
     height: 141rem;
     }
 }
-@media screen and (max-width: 638px) {
-    .benefit .benefit__box-second::before  {
+
+@media screen and (max-width: 636px) {
+    .benefit .benefit__box-second::before {
         top: -63rem;
+        left: -9px;
+        height: 141rem;
     }
 }
+
+
 
 @media screen and (max-width: 630px) {
     .benefit .benefit__card-wrapper {
@@ -784,15 +789,18 @@
 
 @media screen and (max-width: 617px) {
     .benefit .benefit__box-second::before  {
-        top: -58rem;
         left: -12px;
         height: 134rem;
+        top: -58rem;
     }
-}
-@media screen and (max-width: 617px) {
-    .benefit .benefit__box-second::before  {
-        top: -59rem;
+    }
 
+
+@media screen and (max-width: 611px) {
+    .benefit .benefit__box-second::before {
+        left: -12px;
+        height: 134rem;
+        top: -59rem;
     }
 }
 @media screen and (max-width: 609px) {
@@ -863,9 +871,9 @@
         left: -23px;
     }
     .benefit .benefit__box-second::before {
-        height: 110rem;
-        top: -47rem;
-    left: 16px;
+        height: 108rem;
+        top: -45rem;
+        left: 16px;
     }
     .benefit__wrapper .benefit__box .benefit__box-first {
         width: 330px ;
