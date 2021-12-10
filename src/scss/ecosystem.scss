@@ -106,6 +106,47 @@ transition: all 0.3s ease-in-out;
 }
 
 
+
+@media screen and (max-width: 1835px) {
+    .fitness-man {
+        position: absolute;
+        top: 3rem;
+        left: -10rem;
+    }
+}
+
+@media screen and (max-width:1688px) {
+    .fitness-man {
+        position: absolute;
+        top: 12rem;
+        left: -9rem;
+        img {
+            width: 82%;
+        }
+    }
+}
+@media screen and (max-width:1577px) {
+    .fitness-man {
+        position: absolute;
+        top: 12rem;
+        left: -15rem;
+        img {
+            width: 100%;
+        }
+    }
+}
+@media screen and (max-width:1456px) {
+    .fitness-man {
+        position: absolute;
+        top: 36rem;
+        left: -12rem;
+        img {
+            
+                width: 80%;
+    
+        }
+    }
+}
 @media screen and (max-width:1439px) {
     .ecosystem__card {
         width: 384px;
@@ -228,6 +269,12 @@ display: inline;
   .ecosystem {
     padding-bottom: 80px;
   }
+}
+
+@media screen and (max-width: 600px) {
+    .ecosystem__card {
+        border: 2px solid #24B1FE;
+    }
 }
 
 @media screen and (max-width: 500px) {

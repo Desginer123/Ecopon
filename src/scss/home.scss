@@ -11,7 +11,7 @@
     font-weight: 400;
     max-width: 704px;
     color: #949494;
-    padding-top: 91px;
+    padding-top: 41px;
     &-text {
         font-size: 32px;
         line-height: 36px;
@@ -43,7 +43,7 @@
     }
     &-buy {
 
-        padding-top: 33px;
+        padding-top: 8px;
         display: flex;
         align-items: center;
     }
@@ -65,4 +65,8 @@
     .appstore {
         padding-top: 5px;
     }
+}
+
+.box-title.home-title{
+    padding-bottom: 5px;
 }

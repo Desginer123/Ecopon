@@ -2,7 +2,7 @@
 
 .benefit {
    min-height: 1530px;
-  padding-bottom: 194px;
+  
  
   overflow-x: hidden;
     &__inner {
@@ -905,7 +905,7 @@
         width: 300px;
     }
     .benefit .benefit__box-second::before {
-        left: 0;
+        left: 0 !important;
     }
     .benefit__wrapper {
         width: 300px;

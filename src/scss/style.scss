@@ -6,8 +6,8 @@
 
 
 .header {
-  
-       
+    transition: all .6s ease-in-out;
+      
     position: fixed;
     width: 100%;
     z-index: 555;
@@ -16,6 +16,7 @@
       height: 80px;
     }
     &.fixed {
+        transition: all .6s ease-in-out;
       background-color: rgba(0,0,0, .5);
       padding-bottom: 20px;
     }
@@ -29,6 +30,7 @@
         }
     }
     &__inner {
+        transition: all .6s ease-in-out;
         font-family: 'FuturaDemiC';
         font-weight: 600;
         display: flex;
