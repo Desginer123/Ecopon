@@ -691,6 +691,9 @@
         height: 175.6rem;
         top: -72.6rem;
     }
+    .sale__wrapper-box {
+        margin-left: 38px;
+    }
 }
 @media screen and (max-width:427px) {
     .sale__wrapper-box--second::before {
@@ -727,9 +730,7 @@
     }
 }
 @media screen and (max-width:336px) {
-    .sale__wrapper-box {
-        margin-left: 29px;
-    }
+    
     .box-title.sale-title {
         left: 2rem;
         font-size: 32px;
