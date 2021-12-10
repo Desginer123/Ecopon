@@ -58,7 +58,7 @@ padding: 64px 39px;
 text-align: right;
 max-height: 308px;
 z-index: 50;
-border: 2px solid #14213F;
+border: 2px solid #0F182D;
 transition: all 0.3s ease-in-out;
 
 &:hover {
@@ -272,9 +272,7 @@ display: inline;
 }
 
 @media screen and (max-width: 600px) {
-    .ecosystem__card {
-        border: 2px solid #24B1FE;
-    }
+    
 }
 
 @media screen and (max-width: 500px) {

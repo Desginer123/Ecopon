@@ -70,3 +70,31 @@
 .box-title.home-title{
     padding-bottom: 5px;
 }
+
+
+@media screen and (max-width: 873px) {
+    .box-title.home-title{
+        font-family: FuturaDemiC;
+        font-weight: 600;
+        font-size: 42px;
+        line-height: 51px;
+        width: 372px;
+        text-transform: uppercase;
+        color: #fff;
+        padding-bottom: 24px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .box-title.home-title {
+        font-family: FuturaDemiC;
+        font-weight: 600;
+        font-size: 33px;
+        line-height: 39px;
+        max-width: 272px;
+        text-transform: uppercase;
+        color: #fff;
+        padding-bottom: 24px;
+    }
+}
+
