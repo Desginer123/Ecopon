@@ -41,3 +41,12 @@ userWrapper.addEventListener('mouseout', (e) => {
   });
 
 })
+
+document.addEventListener('scroll', () => {
+  if(window.pageYOffset > 74) {
+    document.querySelector('.header').classList.add('fixed')
+  }
+  else {
+    document.querySelector('.header').classList.remove('fixed')
+  }
+})

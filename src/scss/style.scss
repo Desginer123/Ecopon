@@ -238,15 +238,25 @@
 
 @media screen and (max-width: 1100px) {
     .header {
-      height: 74px;
-    }
+    height: 84px;
+position: fixed;
+width: 100%;
+z-index: 555;
+&-wrapper {
+  height: 80px;
+}
+&.fixed {
+  background-color: rgba(0,0,0, .5);
+  padding-bottom: 20px;
+}
+}
     .header__inner-mobile {
         display: flex;
         font-family: 'FuturaDemiC';
         font-weight: 600;
         display: flex;
         justify-content: space-between;
-        padding-top: 36px;
+        padding-top: 20px;
         // position: fixed;
         // width: 100%;
         // max-width: 92%;
