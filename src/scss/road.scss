@@ -271,6 +271,7 @@ margin-bottom: 96px;
   .road-last {
 
     grid-area: 4/3;
+    grid-column: 3;
   }
 
   .d-1 {
@@ -320,9 +321,8 @@ margin-bottom: 96px;
 .road__item-title--3 {
   right: 34rem;
 }
-.road-last {
-  grid-column: span 2;
-}
+
+
 
 }
 
