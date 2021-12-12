@@ -23,16 +23,16 @@
 .ellipce-orange {
     position: absolute;
     left: 0;
-    top: -25rem;
+    top: -23rem;
     z-index: -10;
 }
 .platform__box {
     max-width: 459px;
     height: 624px;
-    background: #14213F;
+    background: #0F182D;
     border-radius: 30px;
     position: relative;
-    border: 2px solid #14213F;
+    border: 2px solid #0F182D;
     transition: all 0.3s ease-in-out;
 
     &:hover {
@@ -61,6 +61,12 @@
     }
     &-text {
         color: #949494;
+    }
+}
+
+.platform__box-text {
+    p {
+        padding-bottom: 10px;
     }
 }
 
@@ -118,6 +124,9 @@
         height: 567px;
 
     }
+    .box-title.benefit-title, .box-title.sale-title {
+        font-size: 53px;
+    }
     .platform__box .platform__image {
         position: absolute;
         top: -9rem;
@@ -128,6 +137,11 @@
     }
 }
 
+@media screen and (max-width: 1300px) {
+    .box-title.benefit-title {
+        font-size: 45px ;
+    }
+}
 @media screen and (max-width: 1240px) {
     .platform__box-text {
         font-size: 15px;
@@ -211,7 +225,7 @@
         width: 400px;
     }
     .platform__title {
-        font-size: 58px !important;
+        font-size: 58px;
     }
 }
 
@@ -245,7 +259,7 @@
         left: 5rem;
     }
     .platform__title {
-        font-size: 41px!important;
+        font-size: 41px;
     }
     .platform__title {
         padding-bottom: 122px;

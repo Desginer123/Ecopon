@@ -1,7 +1,7 @@
 
 .marketplays {
     position: relative;
-    padding-bottom: 140px;
+    padding-bottom: 180px;
     &__inner {
         position: relative;
     }
@@ -30,10 +30,14 @@
     .marketplays__info-title {
         font-family: 'FuturaDemiC';
         font-weight: 600;
-        font-size: 68px;
+        font-size: 72px;
         line-height: 72px;
         color: #FFFFFF;
-        padding-bottom: 24px;
+        margin-bottom: 30px;
+    }
+
+    .marketplays__image {
+        margin-top: 116px;
     }
 
 
