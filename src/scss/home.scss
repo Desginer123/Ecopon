@@ -4,6 +4,8 @@
     background-size: cover;
     background-position: center;
     padding-bottom: 134px;
+    height: 100vh;
+    
 }
 .main__box {
     font-family: 'FuturaBookC';
@@ -67,16 +69,21 @@
 }
 
 
-@media screen and (min-width: 1600px) {
-    .home__inner {
-        height: 100vh;
-    }
-}
+
 
 
 @media screen and (max-width: 1600px) {
     .main__box {
-        padding-top: 100px;
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    .box-title {
+        padding-bottom: 16px;
+    }
+    .main__box-item {
+        padding-top: 23px;
     }
 }
 
@@ -139,3 +146,11 @@
     }
 }
 
+
+@media screen and (max-width: 319px) {
+    .main__box-text {
+        font-size: 32px;
+        line-height: 27px;
+    }
+    
+}

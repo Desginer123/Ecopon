@@ -75,7 +75,7 @@
   min-height: 154px;
 }
 .border-text.d-2 {
-  min-height: 199px;
+  min-height: 202px;
 }
 
 .border-text {
@@ -85,7 +85,7 @@
         color: #949494;
         border-left: 1px solid #1691FA;
         font-size: 24px;
-        min-height: 192px;
+        min-height: 191px;
         padding-left: 14px;
 }
 
@@ -148,8 +148,8 @@ margin-bottom: 96px;
   .d-1 {
     min-height: 178px;
 }
-.d-2 {
-  min-height: 205px;
+.border-text.d-2 {
+  min-height: 196px;
 }
 .road__wrapper {
   grid-gap: 56px 18px;
@@ -252,7 +252,7 @@ margin-bottom: 96px;
 }
 
 .p-1{
-  min-height: 160px;
+  min-height: 157px;
 }
 .border-text.d-2.p-2 {
   min-height: 143px;
@@ -268,7 +268,7 @@ margin-bottom: 96px;
     min-height: 131px;
 }
 .road__item-text.border-text.d-2.p-3.t--3 {
-  min-height: 131px;
+  min-height: 134px;
 }
 
 
@@ -454,7 +454,7 @@ margin-bottom: 96px;
 }
 
 .p-1 {
-  min-height: 156px;
+  min-height: 152px;
 }
 .road__item::after {
   width: 20px;
@@ -465,6 +465,9 @@ margin-bottom: 96px;
 }
 .road__item-text {
   font-size: 20px;
+}
+.p-4 {
+  min-height: 164px;
 }
 
 }
@@ -695,7 +698,7 @@ margin-bottom: 96px;
     width: 106%;
 }
 .border-text.d-2.p-2, .road__item-text.d-1.t--2.p-2 {
-  min-height: 134px;
+  min-height: 128px;
 }
 .p-3, .road__item-text.border-text.d-2.p-3.t--3 {
   min-height: 123px;
@@ -757,6 +760,11 @@ margin-bottom: 96px;
 
 }
 .road__item-title--2 {
+  font-size: 27px;
+line-height: 37px;
+margin-bottom: 3px;
+}
+.road__item-title--3 {
   font-size: 27px;
 line-height: 37px;
 margin-bottom: 3px;
@@ -933,7 +941,7 @@ margin-bottom: 3px;
     left: 44%;
     bottom: -29px;
     bottom: -100px;
-    font-size: 14px;
+
     right: auto;
 }
 .btn-ellipse {
@@ -1204,6 +1212,11 @@ display: none;
   line-height: 18px;
 
   }
+  .road__item-title--3 {
+    font-size: 18px;
+  line-height: 18px;
+ 
+  }
   .road__item-text {
     min-height: 160px;
   }
@@ -1226,7 +1239,7 @@ display: none;
   max-width: 177px;
 }
 .road__item-text.d-1.t--1.p-1.m-1 {
-  min-height: 96px;
+  min-height: 94px;
 }
 .road__item-text.d-1.t--2.p-1.m-2, .road__item-text.d-1.t--2.p-2.m-2 {
   min-height: 122px;
@@ -1288,7 +1301,7 @@ display: none;
   grid-gap: 42px 18px;
 }
 .road__item-text.d-1.t--1.p-1.m-1 {
-  min-height: 135px;
+  min-height: 133px;
 }
 .road__item-text {
   font-size: 14px;
@@ -1300,16 +1313,16 @@ display: none;
     margin-left: 5px;
   }
   .road__item-text.border-text.d-2.p-3.t--3.m-4 {
-    min-height: 172px;
+    min-height: 167px;
 }
 .road__item-text.d-1.t--2.p-1.m-2, .road__item-text.d-1.t--2.p-2.m-2 {
   min-height: 134px;
 }
 .road__item-text.t--5.d-3.p-3.m-5.border-text, .road__item-text.t--5.d-3.p-4.m-5.border-text {
-  min-height: 176px;
+  min-height: 182px;
 }
 .road__item-text.t--4.d-2.p-2.m-3.border-text {
-  min-height: 160px;
+  min-height: 164px;
 }
 }
 

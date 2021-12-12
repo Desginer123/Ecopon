@@ -447,8 +447,8 @@
         display: block;
         border: 1px solid #949494;
         top: 50%;
-        right: -36px;
-        width: 37px;
+        right: -30px;
+        width: 33px;
         z-index: -1;
     }
 
@@ -602,7 +602,7 @@
  }
  .point-4::before {
     top: 49%;
-    right: -34px;
+    right: -29px;
  }
  .sale__wrapper-box--second::before {
      left: -238px;
@@ -673,9 +673,7 @@
         left: -238px;
         height: 179rem;
     }
-    .road__buy-title {
-        font-size: 30px;
-    }
+   
 
 }
 
@@ -813,7 +811,7 @@
 @media screen and (max-width:418px) {
     .sale__wrapper-box--second::before {
         left: -238px;
-        height: 180.7rem;
+        height: 181.7rem;
     }
 }
 
