@@ -407,8 +407,11 @@
 }
 }
 
-@media screen and (max-width: 1074px) {
-    
+@media screen and (max-width: 1024px) {
+    .pp {
+        width: 15px !important;
+        height: 15px !important;
+    }
 }
 
 

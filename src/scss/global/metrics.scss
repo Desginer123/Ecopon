@@ -97,7 +97,8 @@
 
 @media(max-width: 820px) {
   .metrics .title {
-    font-size: 32px;
+    font-size: 42px;
+    line-height: 33px;
   }
   .metrics {
     padding-bottom: 50px;
@@ -123,5 +124,12 @@
   }
   .metrics__item-text {
     padding-bottom: 24px;
+  }
+}
+
+
+@media (max-width:400px) {
+  .metrics .title {
+    font-size: 32px;
   }
 }

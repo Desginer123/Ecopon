@@ -4,7 +4,6 @@ overflow = document.querySelector('#overlay'),
 body = document.querySelector('body'),
 menuLinks = document.querySelectorAll('.mobile__menu ul li a');
 
-
 function menuOpen() {
   menu.classList.toggle('open');
   burger.classList.toggle('open');
