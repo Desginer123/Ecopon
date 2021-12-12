@@ -2,7 +2,7 @@
 
 .benefit {
    min-height: 1530px;
-  padding-bottom: 194px;
+  
  
   overflow-x: hidden;
     &__inner {
@@ -319,8 +319,8 @@
 
 @media screen and (max-width: 1153px) {
     .box-title.benefit-title {
-        font-size: 40px;
-        line-height: 46px;
+        font-size: 72px;
+        
     }
 }
 
@@ -548,6 +548,13 @@
     }
 }
 
+@media screen and (max-width: 781px) {
+    .benefit .benefit__box-second::before {
+        height: 130rem;
+        top: -57rem;
+    }
+}
+
 @media screen and (max-width: 775px) {
     .benefit .benefit__box-second::before {
         height: 130rem;
@@ -559,6 +566,10 @@
     .train .card-title {
         padding-bottom: 0;
         padding-top: 0;
+    }
+    .benefit .benefit__box-second::before {
+        height: 130rem;
+        top: -56rem;
     }
 }
 
@@ -582,6 +593,12 @@
     }
 }
 
+@media screen and (max-width: 746px) {
+    .benefit .benefit__box-second::before {
+        height: 135rem;
+        top: -57rem;
+    }
+}
 @media screen and (max-width: 745px) {
 .benefit .benefit__box-second::before {
     height: 135rem;
@@ -592,16 +609,15 @@
 
 @media screen and (max-width: 744px) {
     .benefit .benefit__box-second::before {
-        top: -58rem;
+        top: -60rem;
+        height: 137rem;
     }
 }
 
 @media screen and (max-width: 739px) {
     .benefit .benefit__box-second::before {
-        top: -60rem;
-
-    height: 138rem;
-
+        top: -62rem;
+        height: 140rem;
     }
 }
 
@@ -611,19 +627,26 @@
             width: 60px;
         }
     }
-    .benefit .benefit__card-text {
-        margin-left: -60px
+    .benefit .benefit__box-second::before {
+        top: -58rem;
+        height: 136rem;
     }
     .benefit__info .card-title {
         font-size: 24px;
     }
 }
 
-@media screen and (max-width: 729px) {
-.benefit .benefit__box-second::before {
-    top: -61rem;
-    height: 140rem;
+@media screen and (max-width: 773px) {
+    .benefit .benefit__box-second::before {
+        top: -60rem;
+        height: 137rem;
+    }
 }
+@media screen and (max-width: 729px) {
+    .benefit .benefit__box-second::before {
+        top: -60rem;
+        height: 138rem;
+    }
 }
 
 @media screen and (max-width: 720px) {
@@ -905,7 +928,7 @@
         width: 300px;
     }
     .benefit .benefit__box-second::before {
-        left: 0;
+        left: 0 !important;
     }
     .benefit__wrapper {
         width: 300px;

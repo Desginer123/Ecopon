@@ -12,7 +12,8 @@
 .road-line {
     position: absolute;
     top: 29rem;
-    left: 0.8rem;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .road__wrapper {
@@ -26,6 +27,14 @@
 .title__road {
     padding-top: 115px;
     padding-bottom: 72px;
+}
+
+.road__item-title--2 {
+  color: #FDFDFD;
+  background: none;
+  font-size: 32px;
+  line-height: 37px;
+  margin-bottom: 8px;
 }
 
 .road__item {
@@ -42,9 +51,13 @@
 
     }
     &-title {
-        color: rgba(8, 111, 245, 1);
+      background: linear-gradient(90.35deg, #086FF5 -26.99%, #24B1FE 52.73%);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: transparent;
         font-size: 32px;
         line-height: 37px;
+        margin-bottom: 8px;
     }
     &-text {
         font-family: FuturaBookC;
@@ -59,10 +72,10 @@
 }
 
 .d-1 {
-  min-height: 169px;
+  min-height: 154px;
 }
 .border-text.d-2 {
-  min-height: 206px;
+  min-height: 199px;
 }
 
 .border-text {
@@ -72,13 +85,11 @@
         color: #949494;
         border-left: 1px solid #1691FA;
         font-size: 24px;
-        min-height: 198px;
+        min-height: 192px;
         padding-left: 14px;
 }
 
-.road__item-title--2 {
-    color: #FDFDFD;
-}
+
 
 .road__item-title--3 {
     font-family: FuturaDemiC;
@@ -115,28 +126,8 @@ margin-bottom: 96px;
 }
 
 
-@media screen and (max-width: 1817px) {
-  .road-line {
-    left: -2.2rem;
-}
-}
 
-@media (max-width: 1792px) {
-  .road-line {
-    width: 100%;
-    height: 633px;
-    top: 472px;
-}
-.d-1 {
-  min-height: 185px;
-}
-.border-text.d-2 {
-  min-height: 198px;
-}
-.d-3 {
-  min-height: 190px;
-}
-}
+
 
 @media screen and (max-width: 1767px) {
   .border-text {
@@ -148,22 +139,14 @@ margin-bottom: 96px;
 }
 
 @media screen and (max-width: 1743px) {
-  .road-line {
-    width: 100%;
-    height: 633px;
-    top: 472px;
-    left: -3rem;
-}
-}
-@media screen and (max-width: 1743px) {
   .d-3 {
-    min-height: 176px;
+    min-height: 190px;
 }
 }
 
 @media (max-width: 1738px) {
   .d-1 {
-    min-height: 195px;
+    min-height: 178px;
 }
 .d-2 {
   min-height: 205px;
@@ -172,7 +155,10 @@ margin-bottom: 96px;
   grid-gap: 56px 18px;
 }
 .d-3 {
-  min-height: 195px;
+  min-height: 187px;
+}
+.road-line {
+  width: 100%;
 }
 }
 
@@ -185,62 +171,32 @@ margin-bottom: 96px;
   
  
   .d-1 {
-    min-height: 196px;
+    min-height: 183px;
 }
 .d-2 {
-  min-height: 195px;
+  min-height: 194px;
 }
 .d-3 {
-  min-height: 189px;
+  min-height: 170px;
 }
 }
 
-@media screen and (max-width: 1664px) {
-  .d-1 {
-    min-height: 209px;
-}
-.border-text.d-2 {
-  min-height: 192px;
-}
-.d-3 {
-  min-height: 184px;
-}
-}
-@media screen and (max-width: 1650px) {
-  .d-1 {
-    min-height: 209px;
-}
-.d-3 {
-  min-height: 184px;
-}
-.road-line {
 
-  left: -2rem;
-}
-.border-text.d-2 {
-  min-height: 192px;
-}
-}
+
 
 @media screen and (max-width:1634px) {
   .d-3 {
-    min-height: 171px;
+    min-height: 165px;
+}
+.d-1 {
+  min-height: 198px;
+}
+.border-text.d-2 {
+  min-height: 177px;
 }
 }
 
-@media screen and (max-width:1624px) {
-  .d-3 {
-    min-height: 177px;
-}
-}
-@media screen and (max-width:1614px) {
-  .road-line {
-    width: 103%;
-    height: 633px;
-    top: 472px;
-    left: -3rem;
-}
-}
+
 
 @media (min-width: 1584px)  {
   .road-line-2 {
@@ -296,37 +252,55 @@ margin-bottom: 96px;
 }
 
 .p-1{
-  min-height: 165px;
+  min-height: 160px;
 }
 .border-text.d-2.p-2 {
-  min-height: 149px;
+  min-height: 143px;
 }
 
 .road__item-text.d-1.t--2.p-2 {
-  min-height: 149px;
+  min-height: 143px;
 }
 .road__wrapper {
   grid-gap: 78px 18px;
 }
 .p-3 {
-    min-height: 145px;
+    min-height: 131px;
+}
+.road__item-text.border-text.d-2.p-3.t--3 {
+  min-height: 131px;
 }
 
-.road__item-text.t--4.d-2.p-3 {
-  min-height: 145px;
-}
+
 .p-4 {
-  min-height: 178px;
+  min-height: 174px;
 }
 .road__item-title--3 {
   right: 34rem;
 }
+.g21q1 {
+  grid-area: 2/3;
+}
 
+.g21q2 {
+  grid-area: 2/2;
+}
 
+.g21q3 {
+  grid-area: 2/1;
+}
+.g22q1 {
+  grid-area: 3/1;
+}
 
 }
 
-
+.btn-ellipse {
+  position: absolute;
+  left: -22rem;
+  top: -24rem;
+  z-index: -3;
+}
 
 
 @media screen and (max-width: 1500px) {
@@ -339,171 +313,576 @@ margin-bottom: 96px;
 } 
 
 
-@media screen and (max-width: 1444px) {
+@media screen and (max-width: 1420px) {
+  .p-1 {
+    min-height: 152px;
+}
+}
+@media screen and (max-width: 1402px) {
   .road-line-2 {
     display: block;
     position: absolute;
     top: 29rem;
-    left: -13rem;
+    left: -7rem;
+    width: 107%;
 }
-}
-
-
-@media screen and (max-width: 1313px) {
-  .road-line-2 {
-    display: block;
-    position: absolute;
-    top: 31rem;
-    left: -18rem;
-}
-.road__item-text {
-  max-width: 268px;
+.p-1 {
+  min-height: 177px;
 }
 .road__wrapper {
   grid-template-columns: repeat(3,4fr);
   align-self: center;
-  grid-gap: 61px 18px;
+  grid-gap: 56px 18px;
 }
-.p-1 {
-  min-height: 198px;
-}
-.road__item-text {
-  font-size: 18px;
-}
-
-
 .border-text.d-2.p-2, .road__item-text.d-1.t--2.p-2 {
-  min-height: 165px;
+  min-height: 149px;
 }
-.p-3, .road__item-text.t--4.d-2.p-3 {
-  min-height: 160px;
+.p-3, .road__item-text.border-text.d-2.p-3.t--3 {
+  min-height: 142px;
+}
+}
+
+
+@media screen and (max-width: 1388px) {
+  .p-1 {
+    min-height: 181px;
+}
+.p-3, .road__item-text.border-text.d-2.p-3.t--3 {
+  min-height: 133px;
 }
 .p-4 {
-  min-height: 198px;
-}
-.road__item-title--3 {
-  right: 21rem;
+  min-height: 168px;
 }
 }
-
-
-@media (max-width:1245px) {
-  .road-line-2 {
-    display: block;
-    position: absolute;
-    top: 31rem;
-    left: -31rem;
-}
-}
-
-@media (max-width: 1050px) {
-  .road__item-text {
-    font-size: 18px;
-
-  }
-  .border-text {
-    line-height: 22px;
-  }
-  .road__item::before {
-      width: 109%;
-   }
-   .road-line-2 {
-    top: 31rem;
-    left: -36rem;
-}
-
-}
-
-@media screen and (max-width:1000px) {
-  .road-line-2 {
-    display: block;
-    position: absolute;
-    top: 31rem;
-    left: -34rem;
-}
-}
-
-
-@media (max-width: 954px) {
-  .road-line-2 {
-    display: block;
-    position: absolute;
-    top: 31rem;
-    left: -41rem;
-}
-}
-@media (max-width: 900px) {
-  .road-line-2 {
-    display: block;
-    position: absolute;
-    top: 31rem;
-    left: -45rem;
+@media screen and (max-width: 1360px) {
+  .p-1 {
+    min-height: 189px;
 }
 .road__item-text {
-  font-size: 15px;
+  font-size: 22px;
+}
+.p-3, .road__item-text.border-text.d-2.p-3.t--3 {
+  min-height: 141px;
+}
+.road__wrapper {
+  grid-template-columns: repeat(3,4fr);
+  align-self: center;
+  grid-gap: 48px 18px;
+}
+}
+@media screen and (max-width: 1324px) {
+  .p-1 {
+    min-height: 199px;
+}
+.border-text.d-2.p-2, .road__item-text.d-1.t--2.p-2 {
+  min-height: 142px;
+}
+.p-3, .road__item-text.border-text.d-2.p-3.t--3 {
+  min-height: 136px;
 }
 }
 
 
-@media (max-width: 871px) {
-  .road__item-title--3 {
-    right: 18rem;
-    /* font-size: 21px; */
-}
-}
-@media (max-width: 800px) {
-  .road-line-2 {
-    display: block;
-    position: absolute;
-    top: 31rem;
-    left: -51rem;
-}
 
-}
-@media (max-width: 757px) {
-  .road__item::after {
-    width: 19px;
-    height: 19px;
-}
-.road__item-text {
-  font-size: 14px;
-}
-}
-@media (max-width: 721px) {
+@media (max-width:1280px) {
   .road__wrapper {
     grid-template-columns: repeat(3,4fr);
     align-self: center;
-    grid-gap: 52px 18px;
+    grid-gap: 42px 18px;
 }
-.border-text.d-2.p-2, .road__item-text.d-1.t--2.p-2 {
-  min-height: 178px;
-}
-.p-3, .road__item-text.t--4.d-2.p-3 {
-  min-height: 170px;
-}
-.p-4 {
-  min-height: 206px;
+.p-1 {
+  min-height: 158px;
 }
 .road-line-2 {
   display: block;
   position: absolute;
-  top: 31rem;
-  left: -57rem;
+  top: 26rem;
+  left: -7rem;
+  width: 107%;
 }
 }
 
+
+
+
+@media (max-width: 1250px) {
+  .p-4 {
+    min-height: 158px;
+}
+.p-1 {
+  min-height: 171px;
+}
+.border-text.d-2.p-2, .road__item-text.d-1.t--2.p-2 {
+  min-height: 135px;
+}
+.p-3, .road__item-text.border-text.d-2.p-3.t--3 {
+  min-height: 128px;
+}
+
+  }
+@media (max-width: 1215px) {
+  .p-1 {
+    min-height: 184px;
+}
+
+.border-text.d-2.p-2, .road__item-text.d-1.t--2.p-2 {
+  min-height: 120px;
+}
+.p-3, .road__item-text.border-text.d-2.p-3.t--3 {
+  min-height: 124px;
+}
+ }
+@media (max-width: 1213px) {
+  .road-line-2 {
+    display: block;
+    position: absolute;
+    top: 27rem;
+    left: -7rem;
+    width: 109%;
+}
+.border-text.d-2.p-2, .road__item-text.d-1.t--2.p-2 {
+  min-height: 138px;
+}
+}
+@media (max-width: 1207px) {
+  .road-line-2 {
+    display: block;
+    position: absolute;
+    top: 25rem;
+    left: -7rem;
+    width: 112%;
+}
+
+.p-1 {
+  min-height: 156px;
+}
+.road__item::after {
+  width: 20px;
+  height: 20px;
+}
+.p-3, .road__item-text.border-text.d-2.p-3.t--3 {
+  min-height: 128px;
+}
+.road__item-text {
+  font-size: 20px;
+}
+
+}
+@media (max-width: 1170px) {
+  .road__wrapper {
+    grid-template-columns: repeat(3,4fr);
+    align-self: center;
+    grid-gap: 31px 18px;
+}
+.p-1 {
+    min-height: 164px;
+}
+.border-text.d-2.p-2, .road__item-text.d-1.t--2.p-2 {
+  min-height: 142px;
+}
+.p-3, .road__item-text.border-text.d-2.p-3.t--3 {
+  min-height: 134px;
+}
+.p-4 {
+  min-height: 165px;
+}
+
+}
+
+@media (max-width: 1120px) {
+  .road__wrapper {
+    grid-template-columns: repeat(3,4fr);
+    align-self: center;
+    grid-gap: 18px 18px;
+}
+.road-line-2 {
+  display: block;
+  position: absolute;
+  top: 23rem;
+  left: -7rem;
+  width: 112%;
+}
+.p-1 {
+  min-height: 146px;
+}
+.p-3, .road__item-text.border-text.d-2.p-3.t--3 {
+  min-height: 144px;
+}
+}
+
+
+@media (max-width: 1100px) {
+  .road-line-2 {
+    display: block;
+    position: absolute;
+    top: 23rem;
+    left: -7rem;
+    width: 114%;
+}
+}
+@media (max-width: 1083px) {
+  .p-1 {
+    min-height: 154px;
+}
+.road__item-text {
+  font-size: 18px;
+}
+.p-3, .road__item-text.border-text.d-2.p-3.t--3 {
+  min-height: 133px;
+}
+}
+@media (max-width: 1050px) {
+  .p-1 {
+    min-height: 161px;
+}
+.border-text.d-2.p-2, .road__item-text.d-1.t--2.p-2 {
+  min-height: 135px;
+}
+.p-3, .road__item-text.border-text.d-2.p-3.t--3 {
+  min-height: 130px;
+}
+.p-4 {
+    min-height: 159px;
+}
+
+}
+
+@media (min-width: 1030px) {
+  .road-line-3 {
+    display: none;
+  }
+}
+@media (max-width: 1030px) {
+  .road-line-3 {
+    display: block;
+    position: absolute;
+    top: 29rem;
+    width: 100%;
+}
+.p-1 {
+  min-height: 170px;
+}
+.border-text.d-2.p-2, .road__item-text.d-1.t--2.p-2 {
+  min-height: 157px;
+}
+.p-3, .road__item-text.border-text.d-2.p-3.t--3 {
+  min-height: 155px;
+}
+.p-4 {
+  min-height: 171px;
+}
+  .road-line-2 {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width:1010px) {
+  .road-line-3 {
+    display: block;
+    position: absolute;
+    top: 29rem;
+    left: -1rem;
+    width: 100%;
+}
+.road__item-text {
+  min-width: 300px;
+}
+.p-1 {
+  min-height: 177px;
+}
+.border-text.d-2.p-2, .road__item-text.d-1.t--2.p-2 {
+  min-height: 154px;
+}
+.p-3, .road__item-text.border-text.d-2.p-3.t--3 {
+  min-height: 148px;
+}
+.p-4 {
+  min-height: 165px;
+}
+}
+
+
+
+
+
+
+@media (max-width: 984px) {
+  .road-line-3 {
+    display: block;
+    position: absolute;
+    top: 29rem;
+    left: -1rem;
+    width: 102%;
+}
+}
+
+@media screen and (max-width: 974px) {
+  .p-4 {
+    min-height: 162px;
+}
+}
+
+@media (max-width: 950px) {
+  .road__item-text {
+    min-width: 267px;
+}
+.road-line-3 {
+  display: block;
+  position: absolute;
+  top: 29rem;
+  left: -2rem;
+  width: 106%;
+}
+}
+
+@media (max-width: 935px) {
+  .p-3, .road__item-text.border-text.d-2.p-3.t--3 {
+    min-height: 143px;
+}
+}
+@media (max-width: 945px) {
+  .road__item-text {
+    font-size: 16px;
+}
+}
+@media screen and (max-width: 930px) {
+  .p-1 {
+    min-height: 185px;
+}
+.border-text.d-2.p-2, .road__item-text.d-1.t--2.p-2 {
+  min-height: 150px;
+}
+ }
+@media (max-width: 929px) {
+  .p-1 {
+    min-height: 184px;
+}
+.border-text.d-2.p-2, .road__item-text.d-1.t--2.p-2 {
+  min-height: 150px;
+}
+}
+@media (max-width: 910px) {
+  .p-1 {
+    min-height: 193px;
+}
+.border-text.d-2.p-2, .road__item-text.d-1.t--2.p-2 {
+  min-height: 143px;
+}
+
+}
+@media (max-width: 900px) {
+  .p-3, .road__item-text.border-text.d-2.p-3.t--3 {
+    min-height: 138px;
+}
+.p-4 {
+  min-height: 157px;
+}
+ }
+
+
+@media (max-width: 851px) {
+  .road-line-3 {
+    display: block;
+    position: absolute;
+    top: 28rem;
+    left: -2rem;
+    width: 106%;
+}
+.border-text.d-2.p-2, .road__item-text.d-1.t--2.p-2 {
+  min-height: 134px;
+}
+.p-3, .road__item-text.border-text.d-2.p-3.t--3 {
+  min-height: 123px;
+}
+.p-4 {
+  min-height: 148px;
+}
+}
+
+
+
+@media (max-width: 830px) {
+  .road__item-text {
+    min-width: 243px;
+    font-size: 14px;
+}
+.road-line-3 {
+  display: block;
+  position: absolute;
+  top: 28.3rem;
+  left: -2rem;
+  width: 109%;
+}
+}
+
+
+
+@media (max-width: 820px) {
+  .road-line-3 {
+    display: block;
+    position: absolute;
+    top: 25.3rem;
+    left: -2rem;
+    width: 109%;
+}
+.p-1 {
+  min-height: 153px;
+}
+.p-4 {
+  min-height: 142px;
+}
+
+}
+
+
+
+@media (max-width: 810px) {
+  .road__item-title {
+    background: -o-linear-gradient(359.65deg,#086ff5 -26.99%,#24b1fe 52.73%);
+    background: linear-gradient(
+90.35deg,#086ff5 -26.99%,#24b1fe 52.73%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-size: 27px;
+    line-height: 37px;
+    margin-bottom: 3px;
+    
+}
+.p-1 {
+  min-height: 165px;
+}
+
+}
+
+@media (min-width: 800px) {
+  .road-line-4 {
+    display: none;
+  }
+
+}
+@media (max-width: 799px) {
+  .road__item-text {
+    min-width: 0;
+    font-size: 14px;
+  }
+  .road-line-3 {
+    display: none;
+  }
+  .road-line-4 {
+    display: block;
+    position: absolute;
+    top: 30rem;
+    width: 100%;
+}
+.p-1 {
+  min-height: 176px;
+}
+.border-text.d-2.p-2, .road__item-text.d-1.t--2.p-2 {
+  min-height: 176px;
+}
+.p-3, .road__item-text.border-text.d-2.p-3.t--3 {
+  min-height: 193px;
+}
+.p-4 {
+  min-height: 199px;
+}
+.road__item-title--3 {
+  right: 26rem;
+}
+
+}
+@media (max-width: 750px) {
+  .road__item::after {
+    width: 19px;
+    height: 19px;
+}
+.road-line-4 {
+  display: block;
+  position: absolute;
+  top: 29.3rem;
+  width: 100%;
+}
+
+.road__item-text.d-1.t--1.p-1, .road__item-text.d-1.t--2.p-1 {
+  min-height: 180px;
+}
+.border-text.d-2.p-2, .p-1, .road__item-text.d-1.t--2.p-2 {
+  min-height: 169px;
+}
+.p-3, .road__item-text.border-text.d-2.p-3.t--3 {
+  min-height: 184px;
+}
+.p-4 {
+  min-height: 187px;
+}
+
+}
+
+
+
+
+
+@media screen and (max-width:720px) {
+  .road__item-text {
+    min-width: 0;
+    font-size: 13px;
+}
+.road__item-text.d-1.t--1.p-1, .road__item-text.d-1.t--2.p-1 {
+  min-height: 195px;
+}
+.border-text.d-2.p-2, .p-1, .road__item-text.d-1.t--2.p-2 {
+  min-height: 160px;
+}
+.p-3, .road__item-text.border-text.d-2.p-3.t--3 {
+  min-height: 175px;
+}
+.p-4 {
+  min-height: 177px;
+}
+  }
+@media screen and (max-width:710px) {
+  .road__item-text.d-1.t--1.p-1, .road__item-text.d-1.t--2.p-1 {
+    min-height: 199px;
+}
+.p-3, .road__item-text.border-text.d-2.p-3.t--3 {
+  min-height: 169px;
+}
+.p-4 {
+  min-height: 167px;
+}
+  }
 @media screen and (min-width:700px) {
   .line-mob {
     display: none;
   }
-
-
 }
 
 @media (max-width: 700px) {
   .road-line-2 {
     display: none; 
    }
+   .road-line-4 {
+     display: none;
+   }
+
+   .g21q1 {
+    grid-area: 2/1;
+  }
+  .g21q2 {
+    grid-area: 3/1;
+  }
+  .g21q3 {
+    grid-area: 3/2;
+  }
+  .g20q3 {
+    grid-area: 2/2;
+  }
+  .g22q1 {
+    grid-area: inherit;
+  }
 
    .line-mob {
     display: block;
@@ -539,132 +918,270 @@ margin-bottom: 96px;
     top: 13rem;
   }
 
-  .t--1 {
-    min-height: 162px;
-  }
-  .road__item-text.d-1.t--2.p-2   {
-
-    min-height: 155px;
-  }
-  .road__item-text.d-1.t--2.p-1 {
-    min-height: 155px;
-  }
-
-  .road__item-text.border-text.d-2.p-2.t--3 {
-    min-height: 152px;
-  }
-
-  .p-3, .road__item-text.t--4.d-2.p-3 {
-    min-height: 140px;
-}
-
-  .t--4 {
-    min-height: 140px;
-  }
-
-  .t--5 {
-    min-height: 152px;
-  }
-  .road__item-text {
-    font-size: 16px;
-  }
+  
   .road__item-title--3 {
     left: 44%;
     bottom: -29px;
-    bottom: -138px;
+    bottom: -100px;
     font-size: 14px;
     right: auto;
 }
+.btn-ellipse {
+  display: none;
+}
+
+.road__item-text.d-1.t--1.p-1.m-1  {
+  min-height: 163px;
+}
+.road__item-text.d-1.t--2.p-1.m-2, .road__item-text.d-1.t--2.p-2.m-2 {
+  min-height: 189px;
+}
+.road__item-text.t--4.d-2.p-2.m-3.border-text, .road__item-text.t--4.d-2.p-2.m-3.border-text{
+  min-height: 175px;
+}
+.road__item-text.border-text.d-2.p-3.t--3.m-4 {
+  min-height: 177px;
+}
+.road__item-text.t--5.d-3.p-4.m-5.border-text, .road__item-text.t--5.d-3.p-3.m-5.border-text {
+  min-height: 182px;
+}
 }
 
 
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:650px) {
   .line-mob {
     display: block;
     position: absolute;
-    left: -12rem;
+    left: -5rem;
     top: 13rem;
+    width: 127%;
+}
+.road__item-text.d-1.t--1.p-1.m-1 {
+  min-height: 198px;
+}
+.road__item-text.d-1.t--2.p-1.m-2, .road__item-text.d-1.t--2.p-2.m-2 {
+  min-height: 171px;
+}
+.road__item-text.t--4.d-2.p-2.m-3.border-text {
+  min-height: 165px;
+}
+.road__item-text.border-text.d-2.p-3.t--3.m-4 {
+  min-height: 159px;
+}
+.road__item-text.t--5.d-3.p-3.m-5.border-text, .road__item-text.t--5.d-3.p-4.m-5.border-text {
+    min-height: 170px;
+}
+}
+@media screen and (max-width:630px) {
+  .line-mob {
+    display: block;
+    position: absolute;
+    left: -5rem;
+    top: 12rem;
+    width: 127%;
+}
+.road__item-text.d-1.t--2.p-1.m-2, .road__item-text.d-1.t--2.p-2.m-2 {
+  min-height: 165px;
+}
+.road__item-text.t--4.d-2.p-2.m-3.border-text {
+  min-height: 158px;
+}
+.road__item-text.border-text.d-2.p-3.t--3.m-4 {
+  min-height: 153px;
+}
+.road__item-text.t--5.d-3.p-3.m-5.border-text, .road__item-text.t--5.d-3.p-4.m-5.border-text {
+  min-height: 157px;
+}
+}
+@media screen and (max-width:610px) {
+  .line-mob {
+    display: block;
+    position: absolute;
+    left: -5rem;
+    top: 10rem;
+    width: 127%;
+}
+.road__item-text.d-1.t--1.p-1.m-1 {
+  min-height: 198px;
+}
+.road__item-text.d-1.t--2.p-1.m-2, .road__item-text.d-1.t--2.p-2.m-2 {
+  min-height: 151px;
+}
+.road__item-text.t--4.d-2.p-2.m-3.border-text {
+  min-height: 144px;
+}
+.road__item-text.border-text.d-2.p-3.t--3.m-4 {
+  min-height: 141px;
+}
+.road__item-text.t--5.d-3.p-3.m-5.border-text, .road__item-text.t--5.d-3.p-4.m-5.border-text {
+  min-height: 143px;
+}
+}
+
+
+@media (max-width: 590px) {
+  .road__item-text.d-1.t--1.p-1.m-1 {
+    min-height: 207px;
+}
+.road__item-text.d-1.t--2.p-1.m-2, .road__item-text.d-1.t--2.p-2.m-2 {
+  min-height: 148px;
+}
+.road__item-text.t--4.d-2.p-2.m-3.border-text {
+  min-height: 138px;
+}
+.road__item-text.border-text.d-2.p-3.t--3.m-4 {
+  min-height: 134px;
+}
+}
+@media (max-width: 570px) {
+  .line-mob {
+    display: block;
+    position: absolute;
+    left: -5rem;
+    top: 7rem;
+    width: 132%;
+}
+.road__item-text.d-1.t--1.p-1.m-1 {
+  min-height: 162px;
+}
+.road__item-text.d-1.t--2.p-1.m-2, .road__item-text.d-1.t--2.p-2.m-2 {
+  min-height: 145px;
+}
+.road__item-text.t--4.d-2.p-2.m-3.border-text {
+  min-height: 138px;
+}
+.road__item-text.border-text.d-2.p-3.t--3.m-4 {
+  min-height: 134px;
+}
+.road__item-text.t--5.d-3.p-3.m-5.border-text, .road__item-text.t--5.d-3.p-4.m-5.border-text {
+  min-height: 142px;
 }
 .road__item-text {
-  font-size: 14px;
+  min-width: 216px;
 }
 }
 
 
-@media (max-width: 552px) {
+@media (max-width: 550px) {
   .line-mob {
     display: block;
     position: absolute;
-    left: -15rem;
-    top: 13rem;
+    left: -4rem;
+    top: 7rem;
+    width: 132%;
 }
 }
-@media (max-width: 531px) {
-  .line-mob {
-    display: block;
-    position: absolute;
-    left: -12rem;
-    top: 13rem;
+@media (max-width: 530px) {
+ 
+  .road__item-text {
+    max-width: 216px;
+}
+.line-mob {
+  display: block;
+  position: absolute;
+  left: -4rem;
+  top: 6rem;
+  width: 126%;
+}
+.road__item-text.d-1.t--2.p-1.m-2, .road__item-text.d-1.t--2.p-2.m-2 {
+  min-height: 137px;
+}
+.road__item-text.t--4.d-2.p-2.m-3.border-text {
+  min-height: 129px;
+}
+.road__item-text.border-text.d-2.p-3.t--3.m-4 {
+  min-height: 125px;
 }
 }
-@media (max-width: 500px) {
-  .road__buy {
-    padding: 35px 25px;
+
+@media (min-width: 500px) {
+  .line-mob-2 {
+    display: none;
+    
   }
-  .road__buy-title {
-    font-size: 24px;
-  }
-  .road__item::before {
+}
 
-    display: inline;
-  }
-  // .road__wrapper {
-  //   background-image: url(../../img/road-map.svg);
-  //   background-size: 100%;
-  //   background-position: center;
-  //   background-position-y: 380px;
-  // }
-  // .road__item:nth-child(3),   .road__item:nth-child(4) {
-  //   margin-top: 80px;
-  // }
-  //
-  // .road__item:nth-child(7),   .road__item:nth-child(8) {
-  //   margin-top: 40px;
-  // }
+@media (max-width: 500px)  {
   .line-mob {
+    display: none;
+   }
+   .line-mob-2 {
     display: block;
     position: absolute;
-    left: -14rem;
-    top: 13rem;
+    left: -3rem;
+    top: 11rem;
+    width: 115%;
+}
+.road__item-text.d-1.t--2.p-1.m-2, .road__item-text.d-1.t--2.p-2.m-2 {
+  min-height: 150px;
+}
+.road__item-text.t--4.d-2.p-2.m-3.border-text {
+  min-height: 119px;
+}
+.road__item-text.border-text.d-2.p-3.t--3.m-4 {
+  min-height: 149px;
 }
 
 }
 
 
-@media (max-width: 460px) {
+
+@media (min-width: 450px) {
+  .line-mob-45 {
+display: none;
+  }
+}
+@media (max-width: 450px) {
   .line-mob {
-    display: block;
-    position: absolute;
-    left: -16rem;
-    top: 13rem;
-}
-
-
-}
-@media (max-width: 460px) {
-  .line-mob {
-    display: block;
+    display: none;
     position: absolute;
     left: -18rem;
     top: 13rem;
 }
+.line-mob-2 {
+  display: none;
+  
+}
+.road__item-text {
+  min-width: 0;
+}
+.line-mob-45 {
+  display: block;
+  position: absolute;
+  top: 13rem;
+  left: -3rem;
+}
+
+.road__item-text.d-1.t--1.p-1.m-1 {
+  min-height: 172px;
+}
+.road__item-text.d-1.t--2.p-1.m-2, .road__item-text.d-1.t--2.p-2.m-2 {
+  min-height: 176px;
+}
+.road__item-text.t--4.d-2.p-2.m-3.border-text {
+  min-height: 175px;
+}
+.road__item-text.border-text.d-2.p-3.t--3.m-4 {
+  min-height: 172px;
+}
+.road__item-text.border-text.d-2.p-3.t--3.m-4 {
+  min-height: 178px;
+}
+
+.road__item-title {
+  line-height: 29px;
+}
+
 }
 @media (max-width: 430px) {
   .road__item-text {
     font-size: 12px;
     line-height: 16px;
+  }
+  .line-mob-45 {
+    display: none;
   }
   .road__item-title {
     font-size: 18px;
@@ -672,108 +1189,130 @@ margin-bottom: 96px;
   .road__item-text {
     min-height: 160px;
   }
-  .road__item::before {
-    width: 111%;
-  }
+ 
   .line-mob {
     display: block;
     position: absolute;
-    left: -9rem;
-    top: 12rem;
+    left: -3rem;
+    top: -5.3rem;
     height: 1144px;
 }
-
 .road__item::after {
-  width: 21px;
-  height: 22px;
-
-
+  width: 12px;
+  height: 12px;
 }
 .road__item-text {
-  max-width: 136px;
-  min-height: 148px;
-}
-
-.t--1 {
-  min-height: 164px;
-}
-.t--2 {
-  min-height: 116px;
-}
-.t--3 {
-  max-width: 148px;
-    min-height: 155px;
-}
-
-.t--4 {
+  font-size: 12px;
+  line-height: 16px;
   min-height: 160px;
+  max-width: 177px;
 }
-.road__item-text.d-1.t--2.p-1, .road__item-text.d-1.t--2.p-2 {
-  min-height: 164px;
+.road__item-text.d-1.t--1.p-1.m-1 {
+  min-height: 96px;
 }
-.road__item-text.border-text.d-2.p-2.t--3 {
-  min-height: 156px;
+.road__item-text.d-1.t--2.p-1.m-2, .road__item-text.d-1.t--2.p-2.m-2 {
+  min-height: 122px;
 }
-.p-3, .road__item-text.t--4.d-2.p-3, .t--4 {
-  min-height: 147px;
-}
-
 .road__item-title {
-  line-height: 31px;
+  line-height: 18px;
 }
-
-.t--5 {
-  max-width: 137px;
-  min-height: 160px;
+.road__item-text.t--4.d-2.p-2.m-3.border-text {
+  min-height: 115px;
 }
-
-
-  .road__item-title--3 {
-    left: 44%;
-    bottom: -29px;
-    bottom: -113px;
-    font-size: 14px;
-    right: auto;
+.road__item-text.border-text.d-2.p-3.t--3.m-4 {
+  
+  min-height: 110px;
 }
-.line-mob {
-  display: block;
-  position: absolute;
-  left: -22rem;
-  top: 12rem;
-  height: 1144px;
+.road__item-text.t--5.d-3.p-3.m-5.border-text, .road__item-text.t--5.d-3.p-4.m-5.border-text {
+  min-height: 121px;
 }
 
 }
 
 
-@media screen and (max-width:380px) {
-  .road__item::after {
-    width: 16px;
-    height: 16px;
-}
-.t--2 {
-  min-height: 120px;
-}
-}
 
-@media screen and (max-width: 350px) {
-  .line-mob {
+@media screen and (max-width: 397px) {
+  .road__item-text.t--5.d-3.p-3.m-5.border-text, .road__item-text.t--5.d-3.p-4.m-5.border-text {
+    min-height: 116px;
+}
+}
+@media screen and (max-width: 391px) {
+  .road__item-text.d-1.t--1.p-1.m-1 {
+    min-height: 106px;
+}
+.road__item-text.d-1.t--2.p-1.m-2, .road__item-text.d-1.t--2.p-2.m-2 {
+  min-height: 118px;
+}
+.road__item-text.t--4.d-2.p-2.m-3.border-text {
+  min-height: 109px;
+}
+.road__item-text.t--5.d-3.p-3.m-5.border-text, .road__item-text.t--5.d-3.p-4.m-5.border-text {
+  min-height: 112px;
+}
+}
+@media screen and (min-width: 380px) {
+  .line-mob-4 {
+    display: none;
+  }
+}
+@media screen and (max-width: 380px) {
+  .line-mob-4 {
     display: block;
     position: absolute;
-    left: -24rem;
-    top: 12rem;
-    height: 1144px;
+    left: -2rem;
+    top: 10rem;
+}
+.road__item-text {
+  min-width: 121px;
+}
+.road__wrapper {
+
+  grid-gap: 42px 18px;
+}
+.road__item-text.d-1.t--1.p-1.m-1 {
+  min-height: 135px;
+}
+.road__item-text {
+  font-size: 14px;
+}
+  .line-mob {
+    display: none;
+  }
+  .road__item {
+    margin-left: 5px;
+  }
+  .road__item-text.border-text.d-2.p-3.t--3.m-4 {
+    min-height: 172px;
+}
+.road__item-text.d-1.t--2.p-1.m-2, .road__item-text.d-1.t--2.p-2.m-2 {
+  min-height: 134px;
+}
+.road__item-text.t--5.d-3.p-3.m-5.border-text, .road__item-text.t--5.d-3.p-4.m-5.border-text {
+  min-height: 176px;
+}
+.road__item-text.t--4.d-2.p-2.m-3.border-text {
+  min-height: 160px;
 }
 }
-@media screen and (max-width: 343px) {
-  .t--5 {
-    max-width: 137px;
-    min-height: 156px;
+
+@media screen and (max-width: 360px) {
+  .road__item-text  {
+    font-size: 13px;
+    
+  }
 }
+
+
+
+@media screen and (max-width: 340px) {
+  .line-mob-4 {
+    display: block;
+    position: absolute;
+    left: -3rem;
+    top: 10rem;
 }
-@media screen and (max-width: 321px) {
-  .road__wrapper {
-   
-    grid-gap: 50px 18px;
+.road__item-text  {
+  font-size: 12px;
+  min-width: 136px;
 }
 }

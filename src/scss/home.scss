@@ -1,17 +1,19 @@
 .home {
-    margin-bottom: 284px;
+    margin-bottom: 124px;
+    overflow: hidden;
 }
 .home__inner {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding-bottom: 134px;
 }
 .main__box {
     font-family: 'FuturaBookC';
     font-weight: 400;
     max-width: 704px;
     color: #949494;
-    padding-top: 91px;
+    padding-top: 158px;
     &-text {
         font-size: 32px;
         line-height: 36px;
@@ -43,7 +45,7 @@
     }
     &-buy {
 
-        padding-top: 33px;
+        padding-top: 8px;
         display: flex;
         align-items: center;
     }
@@ -66,3 +68,58 @@
         padding-top: 5px;
     }
 }
+
+.box-title.home-title{
+    padding-bottom: 5px;
+    font-size: 72px;
+}
+
+
+
+@media screen and (max-width: 1100px) {
+    .box-title.home-title {
+        font-size: 52px;
+        line-height: 70px;
+        max-width: 600px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .box-title.home-title {
+        font-size: 48px;
+        line-height: 62px;
+        max-width: 600px;
+    }
+    .main__box {
+        padding-top: 79px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .main__box-item {
+        font-size: 21px;
+        line-height: 27px;
+        padding-top: 9px;
+        position: relative;
+        padding-left: 45px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .box-title.home-title {
+        font-family: FuturaDemiC;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 39px;
+        max-width: 272px;
+        text-transform: uppercase;
+        color: #fff;
+        padding-bottom: 24px;
+    }
+}
+@media screen and (max-width: 378px) {
+    .home__inner {
+        background-position-x: -532px;
+        background-position-y: 58px;
+    }
+}
+

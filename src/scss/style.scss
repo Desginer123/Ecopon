@@ -6,8 +6,8 @@
 
 
 .header {
-  
-       
+    transition: all .6s ease-in-out;
+      
     position: fixed;
     width: 100%;
     z-index: 555;
@@ -16,9 +16,12 @@
       height: 80px;
     }
     &.fixed {
+        transition: all .6s ease-in-out;
       background-color: rgba(0,0,0, .5);
       padding-bottom: 20px;
     }
+
+    
     .burger {
         width: 26px;
         z-index: 1;
@@ -29,6 +32,7 @@
         }
     }
     &__inner {
+        transition: all .6s ease-in-out;
         font-family: 'FuturaDemiC';
         font-weight: 600;
         display: flex;
@@ -45,7 +49,7 @@
             font-size: 18px;
             line-height: 21px;
             color: #FFFFFF;
-            transition: .3s;
+            transition: .3s ease-in-out;
             &:hover {
                 color: #24B1FE;
             }
@@ -58,6 +62,7 @@
         font-size: 18px;
         line-height: 21px;
         margin-top: 5px;
+        padding-left: 8px;
         a {
             color: #253048;
         }
@@ -84,15 +89,16 @@
             font-size: 20px;
             line-height: 23px;
             text-transform: uppercase;
-            border-radius: 4px;
+            border-radius: 5px;
             background: linear-gradient(90.11deg, #086FF5 -39.64%, #24B1FE 104.35%);
-            transition: all .3s;
+            transition: all .3s ease-in-out;
             &:hover {
                 background: linear-gradient(90.11deg, #064daa -39.64%, #064daa 104.35%);
                 color: #24B1FE;
             }
             .internal {
                 padding: 13px 33px;
+                border-radius: 5px;
                 background: rgba(2, 12, 34, 1);
             }
         }
@@ -197,6 +203,36 @@
     }
 }
 
+@media screen and (max-width: 1420px) {
+     .box-title  {
+        font-size: 58px;
+        line-height: 70px;
+    }
+     .title  {
+        font-size: 58px;
+        line-height: 70px;
+    }
+    .home__inner {
+        padding-bottom: 95px;
+    }
+    .box-title.sale-title {
+        font-size: 58px;
+    }
+    .box-title.benefit-title {
+        font-size: 58px;
+    }
+}
+
+@media screen and (max-width: 1325px) {
+    .header__logo {
+        width: 17%;
+        img {
+            width: 100%;
+        }
+       
+    }
+}
+
 @media screen and (max-width: 1290px) {
     .header__logo {
         max-width: 250px;
@@ -226,6 +262,21 @@
     }
 }
 
+
+@media screen and (max-width: 1220px) {
+    .header__logo {
+        max-width: 234px;
+    }
+}
+
+
+@media screen and (max-width: 1204px) {
+    .header__logo {
+        max-width: 211px;
+    }
+    
+}
+
 @media screen and (max-width: 1200px) {
     .header__social svg {
         margin-left: 4px;
@@ -248,7 +299,10 @@
     .header__inner-mobile {
         display: none;
     }
-    }
+   
+}
+ 
+    
 
 @media screen and (max-width: 1100px) {
     .header {
@@ -263,6 +317,10 @@ z-index: 555;
   background-color: rgba(0,0,0, .5);
   padding-bottom: 20px;
 }
+}
+
+.header__logo img {
+    width: 72%;
 }
     .header__inner-mobile {
         display: flex;
@@ -314,7 +372,7 @@ z-index: 555;
         }
         a {
             color: #fff;
-            text-transform: lowercase;
+            text-transform: uppercase;
             font-size: 15px;
            line-height: 19px;
         }
@@ -333,10 +391,90 @@ z-index: 555;
       .home {
           margin-bottom: 94px;
       }
-
+      .box-title  {
+        font-size: 52px;
+        line-height: 70px;
+    }
+     .title  {
+        font-size: 52px;
+        line-height: 70px;
+    }
+    
+    .box-title.sale-title {
+        font-size: 52px;
+    }
+    
+    .box-title.home-title {
+        font-size: 52px;
+        line-height: 70px;
+        max-width: 600px;
+    }
+    .title.app-title {
+        font-size: 52px;
+    }
 
 }
 
+.gmail-svg {
+    fill: #fff;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+    .title.map__title.aos-init.aos-animate {
+        font-size: 53px;
+
+    line-height: 51px;
+    }
+}
+
+
+@media screen and (max-width: 873px) {
+    .title.platform__title.aos-init.aos-animate {
+        font-size: 42px;
+        padding-bottom: 120px;
+    }
+    .box-title, .title {
+        font-size: 42px;
+    }
+    .box-text {
+        font-size: 26px;
+    }
+    .box-title.benefit-title, .box-title.sale-title {
+        font-size: 42px;
+        line-height: 42px;
+    }
+    .title.system__title {
+        font-size: 42px;
+        line-height: 75%;
+    }
+    .title.app-title {
+        font-size: 42px;
+    }
+    box-text.app-text {
+        font-size: 24px;
+        padding-bottom: 104px;
+    }
+    .title.map__title.aos-init.aos-animate {
+        font-size: 42px;
+        line-height: 42px;
+    }
+    .box-title.sale-title {
+        width: 301px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .box-title  {
+        font-size: 48px;
+        line-height: 70px;
+    }
+    .box-title.home-title {
+        font-size: 48px;
+        line-height: 70px;
+        max-width: 600px;
+    }
+}
 @media screen and (max-width: 731px) {
     .box-title {
         font-size: 49px;
@@ -371,6 +509,23 @@ z-index: 555;
     }
 }
 
+@media screen and (max-width: 700px)  {
+    .box-title.home-title {
+        font-size: 46px;
+        line-height: 56px;
+        max-width: 600px;
+    }
+}
+@media screen and (max-width: 600px)  {
+    .box-title.home-title {
+        font-size: 41px;
+        line-height: 56px;
+        max-width: 600px;
+    }
+    .title.title-mob {
+        font-size: 41px;
+    }
+}
 @media screen and (max-width: 531px)  {
     .container {
         padding-left: 15px;
@@ -397,28 +552,35 @@ z-index: 555;
         width: 120px;
     }
     .main__box {
-        padding-top: 71px;
+        padding-top: 30px;
     }
     .home__inner {
-        background-position-x: -439px;
+        background-position-x: -539px;
         background-position-y: 58px;
     }
 }
 
+@media screen and (max-width: 490px) {
+    .header__logo-mob {
+        max-width: 200px;
+    }
+  
+   
+}
 @media screen and (max-width: 484px) {
     .main__box-buy {
         padding-top: 12px;
     }
     .btn {
         font-size: 16px;
-        padding: 17px 24px;
+        padding: 11px 24px;
     }
     .main__box-buy img {
         width: 100px;
     }
     .main__box-text {
         font-size: 18px;
-        max-width: 12.9rem;
+       
     }
 }
 
@@ -442,6 +604,9 @@ z-index: 555;
         font-size: 35px;
         line-height: 48px;
     }
+    .title.distribution__title{
+        line-height: 38px;
+    }
 }
 
 @media screen and (max-width: 408px) {
@@ -450,6 +615,39 @@ z-index: 555;
         line-height: 38px;
     }
 }
+@media screen and (max-width: 400px) {
+    .box-title.home-title {
+        font-size: 32px;
+        line-height: 43px;
+        max-width: 600px;
+    }
+    .title.platform__title.aos-init.aos-animate {
+        font-size: 32px;
+        padding-bottom: 120px;
+    }
+    .box-title.benefit-title, .box-title.sale-title {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .title.system__title {
+        font-size: 32px;
+        line-height: 82%;
+    }
+    .header__logo-mob {
+        max-width: 123px;
+    }
+    .title.title-mob {
+        font-size: 32px;
+    }
+    .title.app-title.aos-init.aos-animate {
+        font-size: 32px;
+    }
+    .title.map__title.aos-init.aos-animate {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    
+}
 
 @media screen and (max-width: 395px) {
     .main__box-buy img {
@@ -457,8 +655,12 @@ z-index: 555;
     }
     .btn {
         font-size: 14px;
-        padding: 18px 27px;
+        padding: 8px 27px;
     }
+    .box-title.benefit-title, .box-title.sale-title {
+        font-size: 32px;
+    }
+    
 }
 
 

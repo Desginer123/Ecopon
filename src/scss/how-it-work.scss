@@ -38,6 +38,9 @@
     top: -4rem;
     right: -10rem;
 }
+.sport-user {
+    margin-top: 6px;
+}
 
 .arrow-1--mobile {
     position: absolute;
@@ -64,7 +67,7 @@
     position: absolute;
 }
 .arrow-5{
-    margin-top: 15px;
+    margin-top: 6px;
     margin-right: 10px;
 }
 
@@ -257,7 +260,7 @@ z-index: 56;
         width: 729px;
     }
     .climbet-box {
-        width: 615px;
+        width: 574px;
     }
     .arrow-1 {
         width: 993px;
@@ -269,6 +272,10 @@ z-index: 56;
     }
     .arrow-4 {
         margin-left: 10px;
+    }
+    .arrow-2 {
+        margin-top: 1rem;
+        margin-left: 6.5rem;
     }
 }
 
@@ -287,7 +294,7 @@ z-index: 56;
     right: -9rem;
 }
 .arrow-3 {
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 .arrow-2 {
     margin-left: 6rem;
@@ -295,6 +302,13 @@ z-index: 56;
 .arrow-4 {
     margin-left: -21px;
 }
+}
+
+@media screen and (max-width: 1400px) {
+    .arrow-2 {
+        margin-left: 6rem;
+        max-width: 105%;
+    }
 }
 
 @media screen and (max-width: 1386px) {
@@ -306,6 +320,10 @@ z-index: 56;
 @media screen and (max-width: 1360px) {
     .work__wrapper {
         margin: 0 39px;
+    }
+    .arrow-2 {
+        margin-left: 6rem;
+        max-width: 101%;
     }
 }
 
@@ -348,6 +366,10 @@ z-index: 56;
     .arrow-1 {
         width: 973px;
         right: -8rem;
+    }
+    .arrow-2 {
+        margin-left: 5.4rem;
+        max-width: 101%;
     }
 }
 
@@ -394,12 +416,23 @@ z-index: 56;
     .esp-3 {
         right: 6rem;
     }
+    .climbet-box {
+        width: 548px;
+    }
 }
 
 @media screen and (max-width: 1105px) {
     .arrow-1 {
         width: 920px;
         right: -131px;
+    }
+}
+@media screen and (max-width: 1090px) {
+    .climbet-box {
+        width: 536px;
+    }
+    .nfr-card-wrapper {
+        margin: 0px 120px;
     }
 }
 
@@ -412,7 +445,7 @@ z-index: 56;
         width: 620px;
     }
     .climbet-box {
-        width: 539px;
+        width: 469px;
     }
     .nfr-card {
         img {

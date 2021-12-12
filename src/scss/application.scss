@@ -26,6 +26,7 @@
 
 
 .application__box {
+    background: #0F182D;
     max-height: 536px;
     .application__box-title {
         padding-top: 96px;
@@ -47,10 +48,10 @@
 .application__box-down {
     max-width: 704px;
     height: 424px;
-    background: #14213F;
+    background: #0F182D;
     border-radius: 30px;
     position: relative;
-    border: 2px solid #14213F;
+    border: 2px solid #0F182D;
     transition: all 0.3s ease-in-out;
 
     &:hover {
@@ -159,6 +160,9 @@
     .box--3  {
         grid-column: span 2;
     }
+    .title.app-title.aos-init.aos-animate {
+        margin-top: 5rem;
+      }
 }
 
 @media screen and (max-width: 1061px) {
