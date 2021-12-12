@@ -374,7 +374,7 @@
 
 @media screen and (max-width: 600px) {
     .road__buy-title {
-        font-size: 26px;
+        font-size: 30px;
     }
 }
 @media screen and (max-width: 538px) {
@@ -510,7 +510,10 @@
         left: 7rem;
     }
     .road__buy-title {
-        font-size: 18px;
+        font-size: 24px;
+    }
+    .road__buy {
+        padding: 42px 55px;
     }
 
 }
