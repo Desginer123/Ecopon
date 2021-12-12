@@ -59,11 +59,11 @@ text-align: right;
 max-height: 308px;
 z-index: 50;
 border: 2px solid #0F182D;
-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out!important;
 
 &:hover {
   border: 2px solid #24b1fe;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out!important;
   box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.5);
 }
 }
@@ -142,9 +142,9 @@ transition: all 0.3s ease-in-out;
         top: 36rem;
         left: -12rem;
         img {
-            
+
                 width: 80%;
-    
+
         }
     }
 }
@@ -227,7 +227,7 @@ transition: all 0.3s ease-in-out;
     }
     }
     .title.system__title {
-      
+
       padding-top: 13px;
     }
     .ecosystem-vector {
@@ -271,7 +271,7 @@ display: inline;
     padding-bottom: 80px;
   }
 
-  
+
 }
 
 @media screen and (max-width: 900px) {

@@ -87,11 +87,11 @@
     font-weight: 600;
     margin-bottom: 72px;
     border: 2px solid #949494;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out!important;
 
     &:hover {
       border: 2px solid #24b1fe;
-      transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out!important;
     }
     &-number {
         font-size: 72px;
@@ -374,7 +374,7 @@
     .sale__wrapper {
         display: none;
     }
-   
+
     .point-1 {
         position: absolute;
         top: 9rem;
@@ -451,14 +451,14 @@
         width: 37px;
         z-index: -1;
     }
-   
+
 }
 
 
 
 
 @media screen and (max-width: 700px) {
-    
+
     .box-title.benefit-title, .box-title.sale-title {
         font-size: 42px;
     }
@@ -476,8 +476,8 @@
     .sale__wrapper-box--second::before {
         height: 201rem;
     }
-    
-    
+
+
 }
 
 
@@ -505,7 +505,7 @@
     }
 }
 @media screen and (max-width: 626px) {
-    
+
     .sale {
       padding-top: 50px;
       padding-bottom: 30px;
@@ -526,9 +526,9 @@
         height: 208rem;
     }
 
-   
 
-    
+
+
 }
 
 
@@ -565,7 +565,7 @@
     .sale__wrapper-box--second::before {
         height: 216.5rem;
     }
-   
+
 }
 @media screen and (max-width: 535px) {
 
@@ -591,7 +591,7 @@
         left: 9px;
         top: 51%;
     }
-    
+
     .point-2::before {
         left: 9px;
         top: 51%;
@@ -659,7 +659,7 @@
     }
 }
 @media screen and (max-width: 521px) {
-   
+
 }
 @media screen and (max-width: 517px) {
     .sale__wrapper-box--second::before {
@@ -668,16 +668,16 @@
     }
 }
 @media screen and (max-width: 506px) {
-    
+
     .sale__wrapper-box--second::before {
         left: -238px;
         height: 179rem;
     }
-    
+
 }
 
 @media screen and (max-width: 499px) {
-    
+
     .sale__box-number {
         font-size: 32px;
         padding-bottom: 8px;
@@ -723,12 +723,12 @@
     .sale__box-price__cost  {
         padding-left: 0;
     }
-  
+
     .box-title.sale-title {
         font-size: 32px;
 
     }
- 
+
 
     .sale__wrapper-box--second::before {
         left: -238px;
@@ -741,7 +741,7 @@
 
 
 @media screen and (max-width:450px) {
-  
+
     .box-title.sale-title.aos-init.aos-animate {
         font-size: 32px;
         width: 225px;
@@ -752,7 +752,7 @@
         font-size: 32px;
         margin-left: 37px;
     }
-  
+
 }
 @media screen and (max-width:442px) {
     .sale__wrapper-box--second::before {
@@ -767,7 +767,7 @@
     }
 }
 @media screen and (max-width:432px) {
-    
+
     .sale__wrapper-box {
         margin-left: 38px;
     }
@@ -794,11 +794,11 @@
         font-size: 32px;
         margin-left: 26px;
     }
-  
+
 }
 @media screen and (max-width:421px) {
-    
-  
+
+
 }
 @media screen and (max-width:418px) {
     .sale__wrapper-box--second::before {
@@ -812,5 +812,5 @@
         font-size: 32px;
         margin-left: 0px;
     }
-  
+
 }

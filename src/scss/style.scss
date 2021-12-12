@@ -46,7 +46,7 @@
 
     .burger.open{
         margin-top: 7px;
-       
+
         transition: transform 0.3s;
         .burger__line:nth-of-type(1){
             transform: rotate(45deg);
@@ -63,7 +63,7 @@
             transition: transform 0.3s;
         }
     }
-    
+
 
 
 
@@ -302,6 +302,7 @@
         svg {
             width: 15px;
             height: 15px;
+            
         }
     }
 }
@@ -348,7 +349,7 @@
         font-size: 47px;
         line-height: 52px;
     }
-   
+
 }
 @media screen and (max-width: 1152px) {
     .box-title.sale-title {
@@ -359,7 +360,7 @@
         font-size: 44px;
         line-height: 48px;
     }
-   
+
 }
 @media screen and (min-width: 1101px) {
     .header__inner-mobile {

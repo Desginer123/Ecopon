@@ -155,6 +155,10 @@ li {
 		fill: #24B1FE;
 		transition: .3s ease-in-out;
 	}
+	& path {
+		fill: white;
+		transition: .3s ease-in-out;
+	}
 }
 
 .card-title {
