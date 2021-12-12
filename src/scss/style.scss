@@ -7,7 +7,7 @@
 
 .header {
     transition: all .6s ease-in-out;
-      
+
     position: fixed;
     width: 100%;
     z-index: 555;
@@ -21,7 +21,7 @@
       padding-bottom: 20px;
     }
 
-    
+
     .burger {
         width: 26px;
         z-index: 1;
@@ -39,7 +39,7 @@
         justify-content: space-between;
         align-items: center;
         padding-top: 12px;
-       
+
     }
 
     &__nav {
@@ -149,6 +149,23 @@
     }
 }
 
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -500;
+  background-color: transparent;
+  transition: all 0.3s ease-in-out;
+
+  &.active {
+    background-color: rgba(0,0,0, .5);
+    z-index: 500;
+  transition: all 0.3s ease-in-out;
+  }
+}
+
 .footer__box-buy {
     display: flex;
     justify-content: space-between;
@@ -229,7 +246,7 @@
         img {
             width: 100%;
         }
-       
+
     }
 }
 
@@ -274,7 +291,7 @@
     .header__logo {
         max-width: 211px;
     }
-    
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -299,10 +316,10 @@
     .header__inner-mobile {
         display: none;
     }
-   
+
 }
- 
-    
+
+
 
 @media screen and (max-width: 1100px) {
     .header {
@@ -399,11 +416,11 @@ z-index: 555;
         font-size: 52px;
         line-height: 70px;
     }
-    
+
     .box-title.sale-title {
         font-size: 52px;
     }
-    
+
     .box-title.home-title {
         font-size: 52px;
         line-height: 70px;
@@ -564,8 +581,8 @@ z-index: 555;
     .header__logo-mob {
         max-width: 200px;
     }
-  
-   
+
+
 }
 @media screen and (max-width: 484px) {
     .main__box-buy {
@@ -580,7 +597,7 @@ z-index: 555;
     }
     .main__box-text {
         font-size: 18px;
-       
+
     }
 }
 
@@ -646,7 +663,7 @@ z-index: 555;
         font-size: 32px;
         line-height: 42px;
     }
-    
+
 }
 
 @media screen and (max-width: 395px) {
@@ -660,7 +677,7 @@ z-index: 555;
     .box-title.benefit-title, .box-title.sale-title {
         font-size: 32px;
     }
-    
+
 }
 
 
