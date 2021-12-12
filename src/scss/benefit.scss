@@ -178,12 +178,22 @@
     }
 }
 
+@media screen and (max-width: 1380px) {
+    .benefit .benefit__box-second::before {
+        height: 73rem;
+    }
+      
+}
+
 @media screen and (max-width: 1377px) {
     .benefit .benefit__card--right, .benefit__card {
         width: 87%;
     }
     .benefit .benefit__info {
         padding-left: 0;
+    }
+    .benefit .benefit__box-second::before {
+        height: 72rem;
     }
 }
 
@@ -236,8 +246,8 @@
         width: 84.7%;
     }
     .benefit .benefit__box-second::before {
-        height: 66rem;
-        top: 14rem;
+        height: 71rem;
+        top: 15rem;
     }
 }
 
@@ -246,23 +256,11 @@
         width: 84.5%;
     }
     .benefit .benefit__box-second::before {
-        height: 67rem;
-        top: 14rem;
-    }
-}
-@media screen and (max-width: 1254px) {
-    .benefit .benefit__box-second::before {
-        height: 66rem;
-        top: 14rem;
+        height: 71rem;
+        top: 15rem;
     }
 }
 
-@media screen and (max-width: 1251px) {
-    .benefit .benefit__box-second::before {
-        height: 68rem;
-
-    }
-}
 
 @media screen and (max-width: 1237px) {
     .benefit .benefit__card--right, .benefit__card {
@@ -270,12 +268,7 @@
     }
 }
 
-@media screen and (max-width: 1231px) {
-    .benefit .benefit__box-second::before {
-        height: 69rem;
 
-    }
-}
 
 @media screen and (max-width: 1220px) {
     .benefit .benefit__card--right, .benefit__card {
@@ -287,15 +280,18 @@
     .benefit .benefit__card--right, .benefit__card {
         width: 83.5%;
     }
-    .benefit .benefit__box-second::before {
-        height: 70rem;
-        top: 15rem;
-    }
+   
 }
 
 @media screen and (max-width: 1194px) {
     .benefit .benefit__card--right, .benefit__card {
         width: 83.4%;
+    }
+}
+@media screen and (max-width: 1192px) {
+    .benefit .benefit__box-second::before {
+        height: 73rem;
+        top: 15rem;
     }
 }
 
@@ -304,25 +300,32 @@
         width: 83.1%;
     }
 }
-@media screen and (max-width:1182px) {
+@media screen and (max-width: 1174px) {
     .benefit .benefit__box-second::before {
-        height: 71rem;
-
+        height: 74rem;
+        top: 15rem;
     }
 }
+
 
 @media screen and (max-width: 1160px) {
     .benefit .benefit__card--right, .benefit__card {
         width: 83%;
     }
+    .benefit .benefit__box-second::before {
+        height: 75rem;
+        top: 15rem;
+    }
 }
 
 @media screen and (max-width: 1153px) {
-    .box-title.benefit-title {
-        font-size: 72px;
-        
+    
+    .benefit .benefit__box-second::before {
+        height: 72rem;
+        top: 15rem;
     }
 }
+
 
 @media screen and (max-width: 1146px) {
     .benefit .benefit__card--right, .benefit__card {

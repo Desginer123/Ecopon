@@ -3,6 +3,7 @@ let menu = document.querySelector('.mobile__menu')
 
 burger.addEventListener('click', () => {
   menu.classList.toggle('open')
+  burger.classList.toggle('open')
 })
 
 document.addEventListener('click', (e) => {

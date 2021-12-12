@@ -468,6 +468,11 @@ margin-bottom: 96px;
 }
 
 }
+@media (max-width: 1190px) {
+  .road__item-title--3 {
+    right: 30rem;
+}
+}
 @media (max-width: 1170px) {
   .road__wrapper {
     grid-template-columns: repeat(3,4fr);
@@ -749,7 +754,12 @@ margin-bottom: 96px;
     font-size: 27px;
     line-height: 37px;
     margin-bottom: 3px;
-    
+   
+}
+.road__item-title--2 {
+  font-size: 27px;
+line-height: 37px;
+margin-bottom: 3px;
 }
 .p-1 {
   min-height: 165px;
@@ -957,6 +967,9 @@ margin-bottom: 96px;
     left: -5rem;
     top: 13rem;
     width: 127%;
+}
+.home {
+  margin-bottom: 41px;
 }
 .road__item-text.d-1.t--1.p-1.m-1 {
   min-height: 198px;
@@ -1185,6 +1198,11 @@ display: none;
   }
   .road__item-title {
     font-size: 18px;
+  }
+  .road__item-title--2 {
+    font-size: 18px;
+  line-height: 18px;
+ 
   }
   .road__item-text {
     min-height: 160px;
