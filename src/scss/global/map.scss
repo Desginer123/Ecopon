@@ -183,7 +183,7 @@
         top: 13rem;
         left: 5rem;
     }
-    
+
     .map .btn-map {
         padding: 22px 44px;
     }
@@ -562,5 +562,16 @@
     }
     .map__item {
         margin-bottom: 9px;
+    }
+}
+
+@media (max-width: 322px) {
+  .road__buy {
+    padding: 30px 50px;
+}
+}
+@media screen and (max-width: 321px) {
+    .road__buy-title {
+      font-size: 23px;
     }
 }
