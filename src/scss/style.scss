@@ -121,7 +121,7 @@
                 transition: all .3s ease-in-out;
                 background-position: right;
                 color: #24B1FE;
-                box-shadow: 4px 4px 10px #24B1FE;
+                box-shadow: 4px 4px 10px #0757c0;
             }
             .internal {
                 padding: 13px 33px;
@@ -587,6 +587,9 @@ z-index: 555;
         line-height: 56px;
         max-width: 600px;
     }
+    .header__logo-mob {
+        width: 250px;
+    }
 }
 @media screen and (max-width: 600px)  {
     .box-title.home-title.aos-init.aos-animate {
@@ -627,7 +630,7 @@ z-index: 555;
         padding-top: 30px;
     }
     .home__inner {
-        background-position-x: -539px;
+        background-position-x: -298px;
         background-position-y: 58px;
     }
 }
@@ -745,6 +748,11 @@ z-index: 555;
 @media screen and (max-width: 335px) {
     .main__box-buy img {
         width: 78px;
+    }
+}
+@media screen and (max-width: 319px) {
+    .header__logo-mob {
+        max-width: 101px;
     }
 }
 
