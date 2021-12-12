@@ -1,22 +1,54 @@
 let burger = document.querySelector('.burger');
-let menu = document.querySelector('.mobile__menu')
+menu = document.querySelector('.mobile__menu'),
+overflow = document.querySelector('#overlay'),
+body = document.querySelector('body'),
+menuLinks = document.querySelectorAll('.mobile__menu ul li a');
+
+function menuOpen() {
+  menu.classList.toggle('open');
+  burger.classList.toggle('open');
+  overlay.classList.toggle('active');
+  body.style.overflow = 'hidden';
+}
+function menuClose(e) {
+  if (!menu.contains(e.target) && menu.classList.contains('open') && !burger.contains(e.target)) {
+    menu.classList.remove('open');
+    overlay.classList.remove('active');
+    body.style.overflow = '';
+    burger.classList.remove('open');
+
+  }
+
+}
 
 burger.addEventListener('click', () => {
-  menu.classList.toggle('open')
-  burger.classList.toggle('open')
+  if(burger.classList.contains('open')) {
+    menu.classList.remove('open');
+    overlay.classList.remove('active');
+    body.style.overflow = '';
+    burger.classList.remove('open');
+} else {
+    menuOpen()
+}
 })
 
-document.addEventListener('click', (e) => {
-  if (!menu.contains(e.target) && menu.classList.contains('open') && !burger.contains(e.target)) {
-    menu.classList.remove('open')
-  }
-})
+document.addEventListener('click', menuClose)
 
+menuLinks.forEach(link => {
+
+  link.addEventListener('click', (e) => {
+    if(link.contains(e.target)) {
+      menu.classList.remove('open');
+      overlay.classList.remove('active');
+      body.style.overflow = '';
+      burger.classList.remove('open');
+
+    }
+  })
+});
 
 let users = document.querySelectorAll('.user');
 let userWrapper = document.querySelector('.user__wrapper')
-console.log(users);
-
 userWrapper.addEventListener('mouseover', (e) => {
   users.forEach((user, key) => {
     if(user.contains(e.target)) {
