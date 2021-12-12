@@ -168,9 +168,12 @@
 }
 
 .copy__mail {
+    padding-bottom: 7px;
     a {
         color: #fff;
+        transition: .3s ease-in-out;
         &:hover {
+            transition: .3s ease-in-out;
             color: rgba(255, 255, 255, 0.699);
         }
     }
@@ -216,6 +219,8 @@
 
 .copy__image {
     padding: 0 8px;
+    padding-bottom: 10px;
+
     margin-top: 4px
 }
 
@@ -471,7 +476,7 @@ z-index: 555;
         font-size: 52px;
     }
 
-    .box-title.home-title {
+    .box-title.home-title.aos-init.aos-animate {
         font-size: 52px;
         line-height: 70px;
         max-width: 600px;
@@ -536,7 +541,7 @@ z-index: 555;
         font-size: 48px;
         line-height: 70px;
     }
-    .box-title.home-title {
+    .box-title.home-title.aos-init.aos-animate {
         font-size: 48px;
         line-height: 70px;
         max-width: 600px;
@@ -577,14 +582,14 @@ z-index: 555;
 }
 
 @media screen and (max-width: 700px)  {
-    .box-title.home-title {
+    .box-title.home-title.aos-init.aos-animate {
         font-size: 46px;
         line-height: 56px;
         max-width: 600px;
     }
 }
 @media screen and (max-width: 600px)  {
-    .box-title.home-title {
+    .box-title.home-title.aos-init.aos-animate {
         font-size: 41px;
         line-height: 56px;
         max-width: 600px;
@@ -683,7 +688,7 @@ z-index: 555;
     }
 }
 @media screen and (max-width: 400px) {
-    .box-title.home-title {
+    .box-title.home-title.aos-init.aos-animate {
         font-size: 32px;
         line-height: 43px;
         max-width: 600px;
@@ -691,14 +696,20 @@ z-index: 555;
     .title.platform__title.aos-init.aos-animate {
         font-size: 32px;
         padding-bottom: 120px;
+        line-height: 43px;
     }
     .box-title.benefit-title, .box-title.sale-title {
         font-size: 32px;
         line-height: 36px;
+        
     }
     .title.system__title {
         font-size: 32px;
         line-height: 82%;
+        
+    }
+    .title.title-mob.aos-init.aos-animate {
+        line-height: 38px;
     }
     .header__logo-mob {
         max-width: 123px;
