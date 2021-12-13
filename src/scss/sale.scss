@@ -369,10 +369,19 @@
 @media screen and (max-width: 1100px) {
     .sale__wrapper-mob {
         display: block;
+        padding: 0;
+    }
+    .sale__box {
+        max-width: 100%;
+        margin: 0;
     }
 
     .sale__wrapper {
         display: none;
+    }
+    .sale__wrapper-box {
+        padding: 0;
+        max-width: 100%;
     }
 
     .point-1 {
@@ -398,8 +407,7 @@
         left: 13px;
     }
     .sale__wrapper-box--second::before {
-        top: 9rem;
-        height: 199rem;
+        display: none;
     }
  .sale-title {
     font-size: 59px;
