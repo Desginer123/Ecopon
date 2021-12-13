@@ -554,7 +554,7 @@
 @media screen and (max-width: 781px) {
     .benefit .benefit__box-second::before {
         height: 129rem;
-        top: -56rem;
+        top: -57rem;
     }
 }
 
@@ -601,8 +601,9 @@
 
 @media screen and (max-width: 744px) {
     .benefit .benefit__box-second::before {
-        top: -58rem;
-        height: 136rem;
+        top: -60rem;
+height: 137rem;
+
     }
 }
 
@@ -637,8 +638,8 @@
 }
 @media screen and (max-width: 729px) {
     .benefit .benefit__box-second::before {
-        top: -60rem;
-        height: 138rem;
+        top: -62rem;
+        height: 139rem;
     }
 }
 
@@ -685,8 +686,8 @@
 }
 @media screen and (max-width: 707px) {
     .benefit .benefit__box-second::before {
-        top: -55rem;
-        height: 127rem;
+        top: -57rem;
+height: 129rem;
     }
 }
 
@@ -696,7 +697,7 @@
 @media screen and (max-width: 694px) {
     .benefit .benefit__box-second::before {
             left: -4px;
-            top: -57rem;
+            top: -60rem;
             height: 130rem;
     }
     }
@@ -719,7 +720,7 @@
         padding-top: 15px;
     }
     .benefit .benefit__box-second::before {
-        top: -59rem;
+        top: -60rem;
         height: 134rem;
     }
 }
@@ -808,18 +809,13 @@
         padding: 19px 18px;
     }
     .benefit .benefit__box-second::before  {
-        top: -57rem;
+        top: -58rem;
 
-    height: 131rem;
+        height: 133rem;
 
     }
 }
 
-@media screen and (max-width: 627px) {
-    .benefit .benefit__box-second::before {
-        height: 132rem;
-    }
-}
 
 
 
@@ -911,9 +907,9 @@
         left: -23px;
     }
     .benefit .benefit__box-second::before {
-        height: 108rem;
-        top: -45rem;
-        left: 16px;
+        height: 110rem;
+top: -47rem;
+left: 16px;
     }
     .benefit__wrapper .benefit__box .benefit__box-first {
         width: 330px ;
@@ -931,11 +927,29 @@
 
 
 
+@media screen and (max-width: 500px) {
+    .benefit .benefit__box-second::before {
+        height: 108rem;
+        top: -47rem;
+        left: 16px;
+    }
+}
+
 @media screen and (max-width: 465px) {
     .benefit .benefit__wrapper {
         margin: 0 0;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .benefit .benefit__box-second::before {
+        top: -47.3rem;
+        height: 110rem;
+    }
+}
+
+
+
 
 @media screen and (max-width: 340px) {
     .benefit__box .benefit__box-second {

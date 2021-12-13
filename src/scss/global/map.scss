@@ -1,6 +1,6 @@
 .map {
     overflow: hidden;
-    padding-bottom: 130px;
+    
     &__inner {
         background-repeat: no-repeat;
         background-size:cover;
@@ -368,6 +368,9 @@
     .person-3 {
         top: 30rem;
         right: -14rem;
+    }
+    .title.map__title.aos-init.aos-animate {
+        padding-top: 30px;
     }
 }
 
