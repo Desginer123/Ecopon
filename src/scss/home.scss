@@ -1,10 +1,12 @@
-
+.home {
+    height: 100vh;
+}
 .home__inner {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     
-    height: 100vh;
+  
     
 }
 .main__box {
@@ -127,9 +129,9 @@
         padding-left: 45px;
     }
     .home__inner {
-        background-position-x: -675px;
+        background-position-x: -400px;
         background-position-y: 58px;
-        height: 100vh;
+     
 
     }
 }
@@ -147,7 +149,7 @@
 }
 @media screen and (max-width: 378px) {
     .home__inner {
-        background-position-x: -532px;
+        background-position-x: -424px;
         background-position-y: 58px;
     }
 }

@@ -121,11 +121,22 @@
 
 @media screen and (max-width: 480px) {
     .token__box-wrapper {
-        padding: 62px 3px 63px;
+        padding: 0;
         max-width: 100%;
     }
     .token-phone img {
         width: 250px;
+    }
+    .token__box-title {
+        font-size: 18px;
+        line-height: 23px;
+        padding: 0 15px 40px;
+        padding: 48px 24px 16px;
+    }
+    .token__box-text {
+        font-size: 18px;
+        line-height: 19px;
+        padding: 0 24px 16px;
     }
 }
 
@@ -137,12 +148,15 @@
       margin-top: 10px;
     }
     .token__box-title {
-        padding-bottom: 11px;
+        padding-bottom: 16px;
     }
     .token__box-wrapper {
-        padding: 62px 31px 63px;
+        padding: 62px 24px 63px;
         max-width: 100%;
         max-height: 280px;
+    }
+    .btn.btn-token {
+        max-width: 110px;
     }
 
 
