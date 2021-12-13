@@ -1,5 +1,6 @@
 .home {
     height: 100vh;
+    
 }
 .home__inner {
     background-repeat: no-repeat;
@@ -129,7 +130,7 @@
         padding-left: 45px;
     }
     .home__inner {
-        background-position-x: -400px;
+        background-position-x: -231px;
         background-position-y: 58px;
      
 
@@ -149,7 +150,8 @@
 }
 @media screen and (max-width: 378px) {
     .home__inner {
-        background-position-x: -424px;
+        background-position-x: -271px;
+
         background-position-y: 58px;
     }
 }

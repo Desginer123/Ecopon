@@ -267,9 +267,7 @@
         font-size: 58px;
         line-height: 70px;
     }
-    .home__inner {
-        padding-bottom: 95px;
-    }
+    
     .box-title.sale-title {
         font-size: 58px;
     }
@@ -605,6 +603,9 @@ z-index: 555;
     }
     .title.title-mob {
         font-size: 41px;
+    }
+    .header__logo-mob {
+        width: 195px;
     }
 }
 @media screen and (max-width: 531px)  {
