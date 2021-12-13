@@ -17,3 +17,14 @@
 		url('../../fonts/futurademic.ttf') format('truetype'), /* Safari, Android, iOS */
 		url('../../fonts/futurademic.svg#futurademic') format('svg'); /* Chrome < 4, Legacy iOS */
 }
+
+
+@font-face {
+	font-family: 'Futura-Bold';
+	src: url('../fonts/futura-bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/futura-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/futura-bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/futura-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/futura-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/futura-bold.svg#futura-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
