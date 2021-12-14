@@ -611,7 +611,27 @@ margin-bottom: 96px;
 }
 
 
-
+@media (max-width: 998px) {
+ 
+  .p-1 {
+      min-height: 180
+      px;
+  }
+  
+}
+@media (max-width: 991px) {
+ 
+  .p-1 {
+    min-height: 181px;
+}
+.border-text.d-2.p-2, .road__item-text.d-1.t--2.p-2 {
+  min-height: 149px;
+}
+.p-3, .road__item-text.border-text.d-2.p-3.t--3 {
+  min-height: 145px;
+}
+  
+}
 
 
 
@@ -625,15 +645,33 @@ margin-bottom: 96px;
 }
 }
 
+
 @media screen and (max-width: 974px) {
   .p-4 {
     min-height: 162px;
 }
 }
 
+@media (max-width: 959px) {
+  .p-1 {
+    min-height: 186px;
+}
+.p-3, .road__item-text.border-text.d-2.p-3.t--3 {
+  min-height: 136px;
+}
+ }
 @media (max-width: 950px) {
   .road__item-text {
     min-width: 267px;
+}
+.p-1 {
+  min-height: 176px;
+}
+.border-text.d-2.p-2, .road__item-text.d-1.t--2.p-2 {
+  min-height: 153px;
+}
+.p-3, .road__item-text.border-text.d-2.p-3.t--3 {
+  min-height: 147px;
 }
 .road-line-3 {
   display: block;
