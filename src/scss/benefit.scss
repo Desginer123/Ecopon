@@ -156,6 +156,10 @@
     .benefit .benefit__wrapper {
         margin: 0px 74px;
     }
+    .circle-1 {
+        top: 49%;
+        left: -55px;
+    }
 }
 
 @media screen and (max-width: 1440px) {
@@ -171,6 +175,15 @@
         display: block;
         text-align: center;
         padding: 25px;
+    }
+    .circle-1::before {
+        content: "";
+        position: absolute;
+        display: block;
+        border: 1px solid #949494;
+        top: 51%;
+        left: -35px;
+        width: 34px;
     }
 }
 
@@ -995,6 +1008,10 @@ height: 129rem;
 @media screen and (max-width: 600px) {
     .benefit .benefit__wrapper {
         margin: 0;
+    }
+    .box-title.benefit-title {
+       
+        padding-bottom: 40px;
     }
     .benefit__wrapper.benefit__wrapper--mobile {
         padding-left: 5px;

@@ -550,6 +550,10 @@ z-index: 555;
         line-height: 70px;
         max-width: 600px;
     }
+    .box-title, .title {
+        font-size: 52px;
+        line-height: 54px;
+    }
 }
 @media screen and (max-width: 731px) {
     .box-title {
@@ -581,7 +585,7 @@ z-index: 555;
         line-height: 27px;
         padding-top: 9px;
         position: relative;
-        padding-left: 45px;
+        padding-left: 34px;
     }
 }
 
@@ -635,6 +639,10 @@ z-index: 555;
     }
     .main__box {
         padding-top: 30px;
+    }
+    .box-title, .title {
+       
+        line-height: 41px;
     }
     
 }

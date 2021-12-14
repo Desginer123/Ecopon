@@ -281,6 +281,11 @@
 }
 }
 
+@media screen and (max-width: 800px) {
+    .application {
+        padding-bottom: 0;
+    }
+}
 @media screen and (max-width: 620px) {
     .aplication-ellips {
         width: 300px;
