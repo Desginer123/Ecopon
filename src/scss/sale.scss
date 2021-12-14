@@ -359,6 +359,11 @@
     }
 }
 
+@media screen and (max-width: 1136px) {
+    .sale__wrapper-box--second::before {
+        height: 109rem;
+    }
+}
 @media screen and (min-width: 1100px) {
     .sale__wrapper-mob {
         display: none;
@@ -766,6 +771,86 @@
 
 }
 
+@media screen and (max-width: 500px) {
+    .sale__box {
+        margin-left: -15px;
+    }
+    .point-3 {
+        position: absolute;
+        top: 8rem;
+        left: -1.8rem;
+    }
+    .sale__box .point-3::before {
+        content: "";
+        position: absolute;
+        display: block;
+        border: 1px solid #949494;
+        top: 40%;
+        right: -14px;
+        width: 15px;
+        z-index: -1;
+    }
+    .point-1 {
+        position: absolute;
+        top: 9rem;
+        left: -1.9rem;
+    }
+    .sale__box .point-1::before {
+        content: "";
+        position: absolute;
+        display: block;
+        border: 1px solid #949494;
+        top: 40%;
+        left: 13px;
+        width: 16px;
+        z-index: -1;
+    }
+    .point-2 {
+        position: absolute;
+        top: 9rem;
+        left: -1.9rem;
+    }
+    .sale__box .point-2::before {
+        content: "";
+        position: absolute;
+        display: block;
+        border: 1px solid #949494;
+        top: 40%;
+        left: 13px;
+        width: 16px;
+        z-index: -1;
+    }
+    .sale__box .point-5 {
+        position: absolute;
+        top: 12rem;
+        left: -1.9rem;
+    }
+    .sale__box .point-5::before {
+        content: "";
+        position: absolute;
+        display: block;
+        border: 1px solid #beb3b3;
+        top: 74%;
+        left: 13px;
+        width: 16px;
+        z-index: -1;
+    }
+    .point-4 {
+        position: absolute;
+        top: 12rem;
+        left: -1.9rem;
+    }
+    .sale__box .point-4::before {
+        content: "";
+        position: absolute;
+        display: block;
+        border: 1px solid #949494;
+        top: 40%;
+        left: 13px;
+        width: 17px;
+        z-index: -1;
+    }
+}
 @media screen and (max-width: 499px) {
 
     .sale__box-number {
@@ -839,6 +924,11 @@
         font-size: 32px;
         width: 225px;
     }
+    .box-title.sale-title.aos-init.aos-animate {
+        font-size: 26px;
+        width: 207px;
+        margin-left: 0;
+    }
 }
 @media screen and (max-width:446px) {
     .sale-title {
@@ -858,6 +948,11 @@
     .sale__wrapper-box--second::before {
         left: -238px;
         height: 181rem;
+    }
+    .box-title.sale-title.aos-init.aos-animate {
+        font-size: 23px;
+        width: 230px;
+        margin-left: 0;
     }
 }
 @media screen and (max-width:432px) {
@@ -916,10 +1011,11 @@
     }
     .sale__box {}
     .box-title.sale-title.aos-init.aos-animate {
-        font-size: 29px;
-        width: 207px;
-        margin-left: 0;
+        font-size: 23px;
+width: 178px;
+margin-left: 0;
     }
+    
 }
 
 @media screen and (max-width:365px) {
@@ -927,6 +1023,7 @@
         
         height: 83%;
     }
+    
 
 }
 @media screen and (max-width:349px) {
