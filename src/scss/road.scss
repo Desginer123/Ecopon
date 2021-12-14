@@ -585,6 +585,14 @@ margin-bottom: 96px;
 }
 
 
+@media screen and (max-width:1124px) {
+  .road__item-title--2 {
+    font-size: 25px;
+ }
+ .road__item-title {
+  font-size: 25px;
+}
+}
 @media screen and (max-width:1010px) {
   .road-line-3 {
     display: block;
@@ -612,15 +620,15 @@ margin-bottom: 96px;
 
 
 @media (max-width: 998px) {
- 
+
   .p-1 {
       min-height: 180
       px;
   }
-  
+
 }
 @media (max-width: 991px) {
- 
+
   .p-1 {
     min-height: 181px;
 }
@@ -630,7 +638,7 @@ margin-bottom: 96px;
 .p-3, .road__item-text.border-text.d-2.p-3.t--3 {
   min-height: 145px;
 }
-  
+
 }
 
 
@@ -687,6 +695,14 @@ margin-bottom: 96px;
     min-height: 143px;
 }
 }
+@media (max-width: 935px) {
+  .p-1 {
+    min-height: 180px;
+}
+.p-4 {
+  min-height: 160px;
+}
+}
 @media (max-width: 945px) {
   .road__item-text {
     font-size: 16px;
@@ -708,6 +724,20 @@ margin-bottom: 96px;
   min-height: 150px;
 }
 }
+@media (max-width: 915px) {
+  .p-1 {
+    min-height: 188px;
+}
+.border-text.d-2.p-2, .road__item-text.d-1.t--2.p-2 {
+  min-height: 148px;
+}
+.p-3, .road__item-text.border-text.d-2.p-3.t--3 {
+  min-height: 140px;
+}
+.p-4 {
+  min-height: 157px;
+}
+ }
 @media (max-width: 910px) {
   .p-1 {
     min-height: 193px;
@@ -717,16 +747,70 @@ margin-bottom: 96px;
 }
 
 }
+@media (max-width: 903px) {
+  .p-4 {
+    min-height: 152px;
+}
+}
+
 @media (max-width: 900px) {
   .p-3, .road__item-text.border-text.d-2.p-3.t--3 {
     min-height: 138px;
 }
 .p-4 {
-  min-height: 157px;
+  min-height: 153px;
 }
  }
 
 
+@media (max-width: 886px) {
+  .p-1 {
+    min-height: 196px;
+}
+.border-text.d-2.p-2, .road__item-text.d-1.t--2.p-2 {
+  min-height: 141px;
+}
+.border-text.d-2.p-2, .road__item-text.d-1.t--2.p-2 {
+  min-height: 136px;
+}
+ }
+@media (max-width: 885px) {
+  .p-1 {
+    min-height: 198px;
+}
+}
+@media (max-width: 878px) {
+  .p-4 {
+    min-height: 148px;
+}
+}
+@media (max-width: 874px) {
+  .p-1 {
+    min-height: 201px;
+}
+.p-3, .road__item-text.border-text.d-2.p-3.t--3 {
+  min-height: 133px;
+}
+}
+@media (max-width: 864px) {
+  .p-1 {
+    min-height: 204px;
+}
+.p-3, .road__item-text.border-text.d-2.p-3.t--3 {
+  min-height: 128px;
+}
+.p-4 {
+  min-height: 145px;
+}
+}
+@media (max-width: 853px) {
+  .p-1 {
+    min-height: 209px;
+}
+.border-text.d-2.p-2, .road__item-text.d-1.t--2.p-2 {
+  min-height: 129px;
+}
+}
 @media (max-width: 851px) {
   .road-line-3 {
     display: block;
@@ -735,19 +819,27 @@ margin-bottom: 96px;
     left: -2rem;
     width: 106%;
 }
+.p-1 {
+  min-height: 195px;
+}
 .border-text.d-2.p-2, .road__item-text.d-1.t--2.p-2 {
   min-height: 128px;
 }
 .p-3, .road__item-text.border-text.d-2.p-3.t--3 {
-  min-height: 123px;
+  min-height: 127px;
 }
 .p-4 {
-  min-height: 148px;
+  min-height: 143px;
 }
 }
 
 
 
+@media (max-width: 836px) {
+  .p-3, .road__item-text.border-text.d-2.p-3.t--3 {
+    min-height: 123px;
+}
+}
 @media (max-width: 830px) {
   .road__item-text {
     min-width: 243px;
@@ -764,19 +856,21 @@ margin-bottom: 96px;
 
 
 
+@media (max-width: 827px) {
+  .border-text.d-2.p-2, .road__item-text.d-1.t--2.p-2 {
+    min-height: 133px;
+}
+.p-3, .road__item-text.border-text.d-2.p-3.t--3 {
+    min-height: 126px;
+}
+}
+
 @media (max-width: 820px) {
-  .road-line-3 {
-    display: block;
-    position: absolute;
-    top: 25.3rem;
-    left: -2rem;
-    width: 109%;
+  .border-text.d-2.p-2, .road__item-text.d-1.t--2.p-2 {
+    min-height: 127px;
 }
 .p-1 {
-  min-height: 153px;
-}
-.p-4 {
-  min-height: 142px;
+  min-height: 200px;
 }
 
 }
@@ -808,16 +902,36 @@ line-height: 37px;
 margin-bottom: 3px;
 }
 .p-1 {
-  min-height: 165px;
+  min-height: 211px;
+}
+.p-3, .road__item-text.border-text.d-2.p-3.t--3 {
+  min-height: 130px;
 }
 
 }
 
+@media (max-width: 803px) {
+  .border-text.d-2.p-2, .road__item-text.d-1.t--2.p-2 {
+    min-height: 129px;
+}
+.p-3, .road__item-text.border-text.d-2.p-3.t--3 {
+  min-height: 128px;
+}
+  }
 @media (min-width: 800px) {
   .road-line-4 {
     display: none;
   }
 
+
+}
+@media (max-width: 800px) {
+  .p-1 {
+    min-height: 230px;
+}
+.p-3, .road__item-text.border-text.d-2.p-3.t--3 {
+  min-height: 126px;
+}
 }
 @media (max-width: 799px) {
   .road__item-text {
@@ -834,11 +948,14 @@ margin-bottom: 3px;
     width: 100%;
 }
 .p-1 {
-  min-height: 176px;
+  min-height: 189px;
 }
 .border-text.d-2.p-2, .road__item-text.d-1.t--2.p-2 {
-  min-height: 176px;
+  min-height: 188px;
 }
+
+
+
 .p-3, .road__item-text.border-text.d-2.p-3.t--3 {
   min-height: 193px;
 }
@@ -849,6 +966,30 @@ margin-bottom: 3px;
   right: 26rem;
 }
 
+}
+@media (max-width: 795px) {
+  .road__item-text.d-1.t--1.p-1.m-1.road__item-text.d-1.t--2.p-1.m-2{
+    min-height: 187px;
+  }
+}
+@media (max-width: 770px) {
+  .p-1 {
+    min-height: 194px;
+}
+.border-text.d-2.p-2, .road__item-text.d-1.t--2.p-2 {
+    min-height: 175px;
+}
+.p-4 {
+  min-height: 194px;
+}
+}
+@media (max-width: 762px) {
+  .p-1 {
+    min-height: 197px;
+}
+.p-3, .road__item-text.border-text.d-2.p-3.t--3 {
+  min-height: 186px;
+}
 }
 @media (max-width: 750px) {
   .road__item::after {
@@ -863,7 +1004,7 @@ margin-bottom: 3px;
 }
 
 .road__item-text.d-1.t--1.p-1, .road__item-text.d-1.t--2.p-1 {
-  min-height: 180px;
+  min-height: 193px;
 }
 .border-text.d-2.p-2, .p-1, .road__item-text.d-1.t--2.p-2 {
   min-height: 169px;
@@ -881,13 +1022,27 @@ margin-bottom: 3px;
 
 
 
+@media screen and (max-width:730px) {
+  .road__item-text.d-1.t--1.p-1, .road__item-text.d-1.t--2.p-1 {
+    min-height: 200px;
+}
+.border-text.d-2.p-2, .p-1, .road__item-text.d-1.t--2.p-2 {
+  min-height: 165px;
+}
+.p-3, .road__item-text.border-text.d-2.p-3.t--3 {
+  min-height: 180px;
+}
+.p-4 {
+  min-height: 180px;
+}
+}
 @media screen and (max-width:720px) {
   .road__item-text {
     min-width: 0;
     font-size: 13px;
 }
 .road__item-text.d-1.t--1.p-1, .road__item-text.d-1.t--2.p-1 {
-  min-height: 195px;
+  min-height: 208px;
 }
 .border-text.d-2.p-2, .p-1, .road__item-text.d-1.t--2.p-2 {
   min-height: 160px;
@@ -901,15 +1056,23 @@ margin-bottom: 3px;
   }
 @media screen and (max-width:710px) {
   .road__item-text.d-1.t--1.p-1, .road__item-text.d-1.t--2.p-1 {
-    min-height: 199px;
+    min-height: 212px;
 }
 .p-3, .road__item-text.border-text.d-2.p-3.t--3 {
   min-height: 169px;
 }
 .p-4 {
-  min-height: 167px;
+  min-height: 173px;
 }
   }
+@media screen and (max-width:705px) {
+  .road__item-text.d-1.t--1.p-1, .road__item-text.d-1.t--2.p-1 {
+    min-height: 215px;
+}
+.border-text.d-2.p-2, .p-1, .road__item-text.d-1.t--2.p-2 {
+  min-height: 158px;
+}
+}
 @media screen and (min-width:700px) {
   .line-mob {
     display: none;
