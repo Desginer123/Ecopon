@@ -543,6 +543,12 @@
 }
 
 
+@media screen and (max-width: 380px)  {
+    .person.person-1 {
+        top: 28rem;
+        left: 0rem;
+    }
+}
 @media screen and (max-width: 364px) {
     .point--6 {
         top: 10rem;

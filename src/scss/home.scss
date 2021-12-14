@@ -148,10 +148,31 @@
         padding-bottom: 24px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .home {
+        height: inherit;
+    }
+}
+@media screen and (max-width: 400px) {
+    .main__box-text {
+       
+        line-height: 21px;
+    }
+}
 @media screen and (max-width: 378px) {
     .home__inner {
         background-position-x: -271px;
 
+        background-position-y: 58px;
+    }
+    .main__box-text {
+        max-width: 274px;
+    }
+}
+@media screen and (max-width: 340px) {
+    .home__inner {
+        background-position-x: -313px;
         background-position-y: 58px;
     }
 }
