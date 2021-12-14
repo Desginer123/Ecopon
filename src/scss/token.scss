@@ -148,20 +148,23 @@
     .token__box .token-btn {
         margin-top: 0;
     }
-    .token-phone img {
-      margin-top: 10px;
-    }
+   
     .token__box-title {
         padding-bottom: 16px;
     }
-    .token__box-wrapper {
-        padding: 62px 24px 63px;
-        max-width: 100%;
-        max-height: 280px;
-    }
+    
     .btn.btn-token {
         max-width: 110px;
     }
+    .token__box {
+        max-height: 351px;
+    }
 
+    .token-phone img {
+        margin-top: 12px;
+    }
 
 }
+
+
+

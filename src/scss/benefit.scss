@@ -383,15 +383,32 @@
         padding-top: 184px;
 
     }
+    .box-title.benefit-title.benefit-mob {
+        display: none;
+    }
 }
 @media screen and (max-width: 1100px) {
     .benefit__wrapper {
         display: none;
     }
+    .box-title.benefit-title.benefit-mob {
+        display: block;
+    }
     .benefit__wrapper.benefit__wrapper--mobile {
         display: block;
         padding: 0;
+        position: relative;
     } 
+    .benefit__wrapper.benefit__wrapper--mobile::before {
+        content: '';
+        position: absolute;
+        left: -41px;
+        top: 5%;
+        width: 1px;
+        height: 89%;
+        z-index: 0;
+        background-color: #949494;
+    }
     .benefit__box.benefit__box-first {
         padding: 0;
     }
@@ -421,6 +438,27 @@
             left: -35px;
         }
     }
+    .circle-3 {
+        top: 58%;
+        left: -52px;
+    }
+    .circle-1::before {
+        content: "";
+        position: absolute;
+        display: block;
+        border: 1px solid #949494;
+        top: 53%;
+        left: -35px;
+        width: 34px;
+    }
+    .circle-1 {
+        top: 50%;
+        left: -52px;
+    }
+    .circle-5 {
+        top: 60%;
+        left: -51px;
+    }
     .benefit .benefit__box-second::before {
         display: none;
     }
@@ -429,6 +467,7 @@
         margin-left: -65px;
         padding-top: 16px;
     }
+    
     .card-title {
         padding-left: 16px;
     }
@@ -520,9 +559,9 @@
     left: 14px;
 }
 }
-@media screen and (max-width: 862px) {
-    .benefit .benefit__box-second::before {
-        height: 122rem;
+@media screen and (max-width: 854px) {
+    .benefit__wrapper.benefit__wrapper--mobile::before {
+        height: 88%;
     }
 }
 
@@ -607,9 +646,9 @@
     }
 }
 
-@media screen and (max-width: 758px) {
-    .benefit .benefit__box-second::before {
-        height: 134rem;
+@media screen and (max-width: 751px) {
+    .benefit__wrapper.benefit__wrapper--mobile::before {
+        height: 89%;
     }
 
 }
@@ -643,6 +682,9 @@ height: 137rem;
     .benefit__image {
         img {
             width: 60px;
+        }
+        .benefit__wrapper.benefit__wrapper--mobile::before {
+            height: 88%;
         }
     }
     .benefit .benefit__box-second::before {
@@ -747,6 +789,9 @@ height: 129rem;
     .benefit .benefit__box-second::before {
         top: -60rem;
         height: 134rem;
+    }
+    .benefit__wrapper.benefit__wrapper--mobile::before {
+        height: 88%;
     }
 }
 
@@ -864,6 +909,9 @@ height: 129rem;
         top: -59rem;
         height: 134rem;
     }
+    .benefit__wrapper.benefit__wrapper--mobile::before {
+        height: 89%;
+    }
 }
 @media screen and (max-width: 603px) {
     .benefit .benefit__box-second::before {
@@ -890,10 +938,7 @@ height: 129rem;
     .benefit .benefit__card-wrapper {
         padding: 19px 18px 19px 26px;
     }
-    .benefit .benefit__card {
-        width: 264px;
-        max-height: 400px;
-    }
+   
     .benefit .benefit__card-text {
         font-size: 12px;
     }
@@ -908,43 +953,38 @@ height: 129rem;
     .circle  {
         width: 10px;
 
+        height: 10px;
     }
     .circle.circle-2 {
         left: -24px;
-        top: 7.4rem;
+        top: 7.56rem;
     }
     .circle-2::before {
         top: 125px
     }
     .circle.circle-4 {
         left: -23px;
+        top: 24.7%;
     }
     .circle.circle-1 {
-        top: 49%;
+        top: 51.6%;
         left: -23px;
     }
     .circle.circle-3 {
-        top: 57.4%;
+        top: 59.2%;
         left: -23px;
     }
     .circle.circle-5 {
-        top: 59.4%;
+        top: 60.5%;
         left: -23px;
     }
-    .benefit .benefit__box-second::before {
-        height: 110rem;
-top: -47rem;
-left: 16px;
+    .benefit__wrapper.benefit__wrapper--mobile::before {
+        left: -18px;
+        top: 7%;
+        height: 86%;
     }
-    .benefit__wrapper .benefit__box .benefit__box-first {
-        width: 330px ;
-    }
-    .benefit__wrapper .benefit__box .benefit__box-second {
-        width: 330px ;
-    }
-    .benefit__wrapper {
-        width: 330px;
-    }
+   
+   
     .benefit {
       padding-bottom: 0;
     }
@@ -952,41 +992,178 @@ left: 16px;
 
 
 
-@media screen and (max-width: 500px) {
-    .benefit .benefit__box-second::before {
-        height: 108rem;
-        top: -47rem;
-        left: 16px;
+@media screen and (max-width: 600px) {
+    .benefit .benefit__wrapper {
+        margin: 0;
+    }
+    .benefit__wrapper.benefit__wrapper--mobile {
+        padding-left: 5px;
+    }
+    .benefit__wrapper.benefit__wrapper--mobile::before {
+        left: -13.6px;
+        top: 9%;
+        height: 85%;
+    }
+    .circle.circle-4 {
+        left: -24px;
+        top: 24.7%;
+    }
+    .circle.circle-1 {
+        top: 51.6%;
+        left: -24px;
+    }
+    .circle-1::before {
+        width: 14px;
+    left: -15px;
+    top: 53.2%;
+ }
+ .circle.circle-3 {
+    top: 58.6%;
+    left: -24px;
+}
+.circle.circle-5 {
+    top: 60.5%;
+    left: -24px;
+}
+.benefit .benefit__card-text {
+    padding-top: 4px;
+    line-height: 23px;
+    padding-left: 15px;
+}
+.benefit__card-text.exptext {
+    padding-top: 45px;
+}
+
+}
+@media screen and (max-width: 570px) {
+    .benefit__wrapper.benefit__wrapper--mobile::before {
+        left: -13.6px;
+        top: 8.7%;
+        height: 85%;
+    }
+}
+@media screen and (max-width: 559px) {
+    .benefit__wrapper.benefit__wrapper--mobile::before {
+        left: -13.6px;
+    top: 8%;
+    height: 86.5%;
+    }
+}
+@media screen and (max-width: 531px) {
+    .benefit__wrapper.benefit__wrapper--mobile {
+        padding-left: 14px;
+    }
+    .benefit__wrapper.benefit__wrapper--mobile::before {
+        left: -3.6px;
+        top: 8.4%;
+        height: 85.9%;
     }
 }
 
 @media screen and (max-width: 465px) {
-    .benefit .benefit__wrapper {
-        margin: 0 0;
+    .benefit__wrapper.benefit__wrapper--mobile {
+        
     }
 }
+
+@media screen and (max-width: 435px) {
+    
+        .benefit__wrapper.benefit__wrapper--mobile::before {
+            left: -3.6px;
+            top: 8.4%;
+            height: 85.7%;
+       
+    }
+}
+@media screen and (max-width: 434px) {
+    
+    .benefit__wrapper.benefit__wrapper--mobile::before {
+        left: -3.6px;
+        top: 7.7%;
+        height: 85.9%;
+    }
+}
+@media screen and (max-width: 426px) {
+    .benefit__wrapper.benefit__wrapper--mobile::before {
+        height: 85.9%;
+    }
+}
+
+@media screen and (max-width: 419px) {
+    .benefit__wrapper.benefit__wrapper--mobile::before {
+        height: 85.6%;
+    }
+
+}
+
+
+
 
 @media screen and (max-width: 400px) {
-    .benefit .benefit__box-second::before {
-        top: -47.3rem;
-        height: 110rem;
+    .benefit__card-text.exptext {
+        padding-top: 31px;
+    }
+    .benefit .benefit__card-text {
+        line-height: 20px;
+    }
+    .benefit__wrapper.benefit__wrapper--mobile::before {
+       
+        top: 7.9%;
+      
     }
 }
-
-
-
-
-@media screen and (max-width: 340px) {
-    .benefit__box .benefit__box-second {
-        width: 300px;
+@media screen and (max-width: 379px) {
+    
+    
+    .benefit__wrapper.benefit__wrapper--mobile::before {
+        height: 86.1%;
     }
-    .benefit .benefit__box-first {
-        width: 300px;
+    
+}
+@media screen and (max-width: 364px) {
+    .benefit__info .card-title {
+        line-height: 24px;
     }
-    .benefit .benefit__box-second::before {
-        left: 0 !important;
+    
+    .benefit__wrapper.benefit__wrapper--mobile::before {
+        top: 7.9%;
+        height: 86.3%;
     }
-    .benefit__wrapper {
-        width: 300px;
+    .benefit__card-text.exptext {
+        padding-top: 20px;
     }
+    
+    
+}
+@media screen and (max-width: 354px) {
+    
+    
+    .benefit__wrapper.benefit__wrapper--mobile::before {
+        top: 8%;
+        height: 86.2%;
+    }
+}
+@media screen and (max-width: 339px) {
+    
+    
+    
+    
+}
+@media screen and (max-width: 331px) {
+    
+    
+    .benefit__wrapper.benefit__wrapper--mobile::before {
+        top: 8%;
+        height: 86%;
+    }
+    
+}
+@media screen and (max-width: 324px) {
+    
+    
+    .benefit__wrapper.benefit__wrapper--mobile::before {
+        top: 7.5%;
+    height: 86%;
+    }
+    
 }
